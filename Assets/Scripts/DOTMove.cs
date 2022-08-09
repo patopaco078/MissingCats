@@ -5,21 +5,75 @@ using DG.Tweening;
 
 public class DOTMove : MonoBehaviour
 {
-    [SerializeField] private Transform[] propsTanforms;
+    [SerializeField] private Transform[] props0;
+    [SerializeField] private Transform[] props1;
+    [SerializeField] private Transform[] props2;
+    [SerializeField] private Transform[] props3;
+
+
     [SerializeField] private float time;
     [SerializeField] private float x;
     [SerializeField] private float y;
     [SerializeField] private float z;
 
-    void Start()
+    public void Prop0Up()
     {
-        propsTanforms[0].DOMove(new Vector3(x, y, z), time).SetLoops(-1, LoopType.Yoyo);
-        propsTanforms[1].DOMove(new Vector3(x, y, z), time).SetLoops(-1, LoopType.Yoyo);
+        for (int i = 0; i < props0.Length -1; i++)
+        {
+            Debug.Log(props0.Length);
+            Debug.Log(i);
+            props0[i].DOMove(new Vector3(x, y, z), time);
+        }
+    }
+    public void Prop0Down()
+    {
+        for (int i = 0; i < props0.Length -1; i++)
+        {
+            props0[i].DOMove(new Vector3(x, 0, z), time);
+        }
     }
 
-    private void OnTriggerEnter(Collider collider)
+    public void Prop1Up()
     {
-        transform.DOMove(new Vector3(x, y, z), time);
+        for (int i = 0; i < props0.Length -1; i++)
+        {
+            props1[i].DOMove(new Vector3(x, y, z), time);
+        }
+    }
+    public void Prop1Down()
+    {
+        for (int i = 0; i < props0.Length -1; i++)
+        {
+            props1[i].DOMove(new Vector3(x, 0, z), time);
+        }
+    }
+    public void Prop2Up()
+    {
+        for (int i = 0; i < props0.Length - 1; i++)
+        {
+            props2[i].DOMove(new Vector3(x, y, z), time);
+        }
+    }
+    public void Prop2Down()
+    {
+        for (int i = 0; i < props0.Length - 1; i++)
+        {
+            props2[i].DOMove(new Vector3(x, 0, z), time);
+        }
     }
 
+    public void Prop3Up()
+    {
+        for (int i = 0; i < props0.Length - 1; i++)
+        {
+            props3[i].DOMove(new Vector3(x, y, z), time);
+        }
+    }
+    public void Prop3Down()
+    {
+        for (int i = 0; i < props0.Length - 1; i++)
+        {
+            props3[i].DOMove(new Vector3(x, 0, z), time);
+        }
+    }
 }
