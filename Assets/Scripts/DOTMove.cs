@@ -20,8 +20,8 @@ public class DOTMove : MonoBehaviour
     {
         for (int i = 0; i < props0.Length -1; i++)
         {
-            Debug.Log(props0.Length);
-            Debug.Log(i);
+            //Debug.Log(props0.Length);
+            //Debug.Log(i);
             props0[i].DOMove(new Vector3(x, y, z), time);
         }
     }
