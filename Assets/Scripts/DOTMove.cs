@@ -35,28 +35,28 @@ public class DOTMove : MonoBehaviour
 
     public void Prop1Up()
     {
-        for (int i = 0; i < props0.Length -1; i++)
+        for (int i = 0; i < props1.Length -1; i++)
         {
             props1[i].DOMove(new Vector3(x, y, z), time);
         }
     }
     public void Prop1Down()
     {
-        for (int i = 0; i < props0.Length -1; i++)
+        for (int i = 0; i < props1.Length -1; i++)
         {
             props1[i].DOMove(new Vector3(x, 0, z), time);
         }
     }
     public void Prop2Up()
     {
-        for (int i = 0; i < props0.Length - 1; i++)
+        for (int i = 0; i < props2.Length - 1; i++)
         {
             props2[i].DOMove(new Vector3(x, y, z), time);
         }
     }
     public void Prop2Down()
     {
-        for (int i = 0; i < props0.Length - 1; i++)
+        for (int i = 0; i < props2.Length - 1; i++)
         {
             props2[i].DOMove(new Vector3(x, 0, z), time);
         }
@@ -64,14 +64,14 @@ public class DOTMove : MonoBehaviour
 
     public void Prop3Up()
     {
-        for (int i = 0; i < props0.Length - 1; i++)
+        for (int i = 0; i < props3.Length - 1; i++)
         {
             props3[i].DOMove(new Vector3(x, y, z), time);
         }
     }
     public void Prop3Down()
     {
-        for (int i = 0; i < props0.Length - 1; i++)
+        for (int i = 0; i < props3.Length - 1; i++)
         {
             props3[i].DOMove(new Vector3(x, 0, z), time);
         }
