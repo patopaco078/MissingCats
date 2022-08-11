@@ -107,8 +107,47 @@ public class CameraRotate : MonoBehaviour
 
         if (cameraPosCounter == 0)
         {
-            DOT.Prop0Down();
             cameraPosCounter = 3;
+
+            if (FirstPosCounter == 0)
+            {
+                DOT.Prop3Up();
+                DOT.Prop2Up();
+                Debug.Log("0Up");
+                FirstPosCounter++;
+            }
+            else
+            {
+                DOT.Prop3Up();
+                DOT.Prop2Up();
+                DOT.Prop0Down();
+                Debug.Log("0Up 1Up y 3Down");
+                FirstPosCounter++;
+            }
+        }
+        else if (cameraPosCounter == 3)
+        {
+            DOT.Prop1Up();
+            DOT.Prop2Up();
+            DOT.Prop3Down();
+            Debug.Log("3Up 0Up y 2Down");
+            cameraPosCounter--;
+        }
+        else if (cameraPosCounter == 2)
+        {
+            DOT.Prop1Up();
+            DOT.Prop0Up();
+            DOT.Prop2Down();
+            Debug.Log("2Up 3Up y 1Down");
+            cameraPosCounter--;
+        }
+        else if (cameraPosCounter == 1)
+        {
+            DOT.Prop3Up();
+            DOT.Prop0Up();
+            DOT.Prop1Down();
+            Debug.Log("1Up 2Up y 0Down");
+            cameraPosCounter--;
         }
     }
 }
