@@ -24,19 +24,7 @@ public class OrbitalCameraController : MonoBehaviour
 
     private void Update()
     {
-        //touch
-        if (Input.touchCount > 0)
-        {
-            Touch touchZero = Input.GetTouch(0);
-            if (touchZero.phase == TouchPhase.Moved)
-            {
-                touchDeltaPosition = Input.GetTouch(0).deltaPosition;
-                rotationCamera.x -= touchDeltaPosition.y * velocity;
-                rotationCamera.y += touchDeltaPosition.x * velocity;
-            }
-
-            Debug.Log(touchDeltaPosition);
-        }
+        
         //Orbite camera
         cameraPosition.position = new Vector3(((Mathf.Sin(rotationCamera.y * Mathf.PI / 180) * CameraDistance) * -1)*(Mathf.Cos(rotationCamera.x * Mathf.PI / 180)), Mathf.Sin(rotationCamera.x * Mathf.PI / 180) * CameraDistance, ((Mathf.Cos(rotationCamera.y * Mathf.PI / 180) * CameraDistance)*-1) * (Mathf.Cos(rotationCamera.x * Mathf.PI / 180)));
 
