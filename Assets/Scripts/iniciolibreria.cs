@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class inicio : MonoBehaviour
+public class iniciolibreria : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject imagen;

@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class camara : MonoBehaviour
+public class camaralibreria : MonoBehaviour
 {
      public static string selectedObject;
         public string internalObject;

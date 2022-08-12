@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class flashero : MonoBehaviour
+public class flasherolibreria : MonoBehaviour
 {
    private GameObject selectedObject;
 
@@ -40,7 +39,7 @@ private GameObject siguiente;
     }
     void OnMouseOver()
     {
-        selectedObject= GameObject.Find(camara.selectedObject);
+        selectedObject= GameObject.Find(camaralibreria.selectedObject);
         actual=selectedObject;
        
       

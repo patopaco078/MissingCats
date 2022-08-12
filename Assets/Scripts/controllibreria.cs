@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class control : MonoBehaviour
+public class controllibreria : MonoBehaviour
 {
 
    float mainSpeed = 5.0f; //regular speed
