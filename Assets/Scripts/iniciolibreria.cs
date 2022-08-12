@@ -88,7 +88,14 @@ public Button ingresar;
     // Update is called once per frame
     void Update()
     {
-      
+      if(luzRoja.active==true)
+      {
+        luzVerde.SetActive(false);
+      }
+       if(luzVerde.active==true)
+      {
+        luzRoja.SetActive(false);
+      }
        if (Input.GetMouseButtonDown(0)) {  
       Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);  
       
