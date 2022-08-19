@@ -35,14 +35,15 @@ public class CameraInteractiveTouchController : MonoBehaviour
                         actualGameObjectUsing = hit.transform.gameObject;
                         hit.transform.gameObject.GetComponent<InteractiveObjectController>().IsUsing();
                     }
-                    if (!(hit.transform.tag == "Interactable") && touchPlayer.phase == TouchPhase.Began && isInteractingObcjet)
-                    {
-                        VolumeEffectCamera.enabled = false;
-                        isInteractingObcjet = false;
-                        actualGameObjectUsing.GetComponent<InteractiveObjectController>().IsNotUsing();
-                    }
                 }
             }
         }
+    }
+
+    public void ExitUsingObject()
+    {
+        VolumeEffectCamera.enabled = false;
+        isInteractingObcjet = false;
+        actualGameObjectUsing.GetComponent<InteractiveObjectController>().IsNotUsing();
     }
 }
