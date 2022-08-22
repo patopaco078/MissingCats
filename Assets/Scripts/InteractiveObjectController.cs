@@ -5,10 +5,22 @@ using DG.Tweening;
 
 public class InteractiveObjectController : MonoBehaviour
 {
+    //camera propietys
+    [SerializeField] Transform Camera;
+    [SerializeField] GameObject InitialCameraPosition;
+    [SerializeField] Transform ZoomTarget;
+    [SerializeField] RectTransform ButtonMove;
+    [SerializeField] RectTransform ButtonBack;
+
     [SerializeField] Transform Target;
-    [SerializeField] float Velocity = 0.5f;
+    [SerializeField] float VelocityToMoving = 0.5f;
     private Vector3 originalPosition, originalRotation;
     private bool isUsing = false;
+    [SerializeField] CameraLibraryController CLC;
+    [SerializeField] PipeController Pipe;
+
+    [SerializeField] bool IsLybrary = false;
+    [SerializeField] bool IsPipe = false;
 
     Vector2 touchDeltaPosition;
     Vector3 rotationCamera;
@@ -20,36 +32,43 @@ public class InteractiveObjectController : MonoBehaviour
         originalRotation = transform.rotation.eulerAngles;
     }
 
-    private void Update()
-    {
-        if (isUsing)
-        {
-            if (Input.touchCount > 0)
-            {
-                Touch touchZero = Input.GetTouch(0);
-                if (touchZero.phase == TouchPhase.Moved)
-                {
-                    touchDeltaPosition = Input.GetTouch(0).deltaPosition;
-                    rotationCamera.x -= touchDeltaPosition.y * velocity;
-                    rotationCamera.y += touchDeltaPosition.x * velocity;
-                }
-
-                Debug.Log(touchDeltaPosition);
-            }
-            gameObject.transform.rotation = Quaternion.Euler(rotationCamera);
-        }
-    }
-
     public void IsUsing()
     {
-        gameObject.transform.DOMove(Target.position, Velocity);
+        InitialCameraPosition.GetComponent<InitialCamera>().CanMove = false;
+        ButtonMove.transform.DOMoveY(1500f, VelocityToMoving);
+        ButtonBack.DOMoveY(500, VelocityToMoving);
+        Camera.DOMove(ZoomTarget.position, VelocityToMoving);
+        Camera.DORotate(ZoomTarget.rotation.eulerAngles, VelocityToMoving);
+        gameObject.GetComponent<BoxCollider>().enabled = false;
+
+        if (IsLybrary && CLC != null)
+        {
+            CLC.DownButton();
+        }
+
+        if(IsPipe && Pipe != null)
+        {
+            Pipe.UpPipe();
+        }
+
         isUsing = true;
     }
 
     public void IsNotUsing()
     {
-        gameObject.transform.DOMove(originalPosition, Velocity);
-        gameObject.transform.DORotate(originalRotation, Velocity);
-        isUsing=false;
+        Camera.DOMove(InitialCameraPosition.transform.position, VelocityToMoving);
+        Camera.DORotate(InitialCameraPosition.transform.rotation.eulerAngles, VelocityToMoving);
+        ButtonMove.transform.DOMoveY(375f, VelocityToMoving);
+        ButtonBack.DOMoveY(1300, VelocityToMoving);
+        
+        StartCoroutine(CanMovePosition());
+        isUsing =false;
+    }
+
+    IEnumerator CanMovePosition()
+    {
+        yield return new WaitForSeconds(VelocityToMoving);
+        InitialCameraPosition.GetComponent<InitialCamera>().CanMove = true;
+        gameObject.GetComponent<BoxCollider>().enabled = true;
     }
 }

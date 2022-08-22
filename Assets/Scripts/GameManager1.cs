@@ -13,12 +13,12 @@ public class GameManager1 : MonoBehaviour
 
     public int CorrectedPipes=0;
     
-    public Button button;
+    //public Button button;
 
     [SerializeField]int TotalPipes =0;
     void Start()
     {
-        button.onClick.AddListener(TaskP);
+        //button.onClick.AddListener(TaskP);
         Ganaste.SetActive(false);
         TotalPipes=pipesHolder.transform.childCount;
         Pipes= new GameObject[TotalPipes];
