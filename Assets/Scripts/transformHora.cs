@@ -40,6 +40,6 @@ public class transformHora : MonoBehaviour
     {
         GetComponent<Rigidbody>().rotation = Quaternion.Euler(0f, 0f, counter);
         counter += 30f;
-        //Debug.Log(counter);
+
     }
 }

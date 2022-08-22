@@ -5,7 +5,8 @@ using UnityEngine;
 public class XMove : MonoBehaviour
 {
     //Movimiento Cubos
-
+    private bool MoveW = false;
+    private bool MoveS = false;
 
     private Rigidbody rb;
     [SerializeField] private float vel;
@@ -15,21 +16,19 @@ public class XMove : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    //private void Update()
-    //{
-    //    Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
-    //    localVelocity.z = 0;
-    //    localVelocity.y = 0;
-
-    //    rb.velocity = transform.TransformDirection(localVelocity);
-    //}
 
     void FixedUpdate()
     {
 
-        //Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
-        //localVelocity.x = 0;
-        //localVelocity.y = 0;
+        if (MoveS == true)
+        {
+            transform.Translate(new Vector3(vel * Time.deltaTime, 0, 0));
+        }
+        if (MoveW == true)
+        {
+            transform.Translate(new Vector3(-vel * Time.deltaTime, 0, 0));
+        }
+
 
         if (Input.GetKey(KeyCode.S))
         {
@@ -39,7 +38,23 @@ public class XMove : MonoBehaviour
         {
             transform.Translate(new Vector3(-vel * Time.deltaTime, 0, 0));
         }
+    }
 
-        //rb.velocity = transform.TransformDirection(localVelocity);
+    public void WMove()
+    {
+        MoveW = true;
+    }
+    public void WStop()
+    {
+        MoveW = false;
+    }
+
+    public void SMove()
+    {
+        MoveS = true;
+    }
+    public void SStop()
+    {
+        MoveS = false;
     }
 }
