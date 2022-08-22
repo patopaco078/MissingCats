@@ -17,8 +17,8 @@ public class iniciolibreria : MonoBehaviour
         
        public bool condicion =false;
 
-       public TMPro.TMP_InputField barra;
-
+     
+public GameObject reiniciar;
        public GameObject fondo;
 
        public GameObject contraseña_texto;
@@ -42,7 +42,21 @@ public GameObject text3_3;
 public GameObject text3_4;
 public GameObject text3_5;
 public GameObject text3_6;
+
+public GameObject uno;
+public GameObject dos;
+public GameObject tres;
+public GameObject cuatro;
+public GameObject cinco;
+public GameObject seis;
+public GameObject siete;
+public GameObject ocho;
+public GameObject nueve;
+
+
 public Button flecha;
+
+public TMPro.TMP_Text codigo;
 
 public Button ingresar;
     void Awake()
@@ -67,17 +81,29 @@ public Button ingresar;
                       text3_4.SetActive(false);
                        text3_5.SetActive(false);
                         text3_6.SetActive(false);
+
+       uno.SetActive(false);
+       dos.SetActive(false);
+       tres.SetActive(false);
+       cuatro.SetActive(false);
+       cinco.SetActive(false);
+       seis.SetActive(false);
+       siete.SetActive(false);
+       ocho.SetActive(false);
+       nueve.SetActive(false);
        flecha.gameObject.SetActive(false);
        flecha.onClick.AddListener(Task);
        ingresar.onClick.AddListener(Task2);
        imagenFlechas.SetActive(false);
-       barra.gameObject.SetActive(false);
+       codigo.gameObject.SetActive(false);
+     
        fondo.SetActive(false);
        contraseña_texto.SetActive(false);
        ingresar.gameObject.SetActive(false);
        luzVerde.SetActive(false);
        luzRoja.SetActive(false);
-       barra.characterLimit=4;
+       reiniciar.SetActive(false);
+      
     }
     void Start()
     {
@@ -300,8 +326,19 @@ public Button ingresar;
                   flecha.gameObject.SetActive(true);
                   condicion=true;
                       cambio.SetActive(false);
-                       barra.gameObject.SetActive(true);
+                      codigo.gameObject.SetActive(true);
+                      
              ingresar.gameObject.SetActive(true);
+              uno.SetActive(true);
+       dos.SetActive(true);
+       tres.SetActive(true);
+       cuatro.SetActive(true);
+       cinco.SetActive(true);
+       seis.SetActive(true);
+       siete.SetActive(true);
+       ocho.SetActive(true);
+       nueve.SetActive(true);
+         reiniciar.SetActive(true);
              
       
            
@@ -324,16 +361,28 @@ void Task()
     condicion=false;
     contraseña_texto.SetActive(false);
     fondo.SetActive(false);
- barra.gameObject.SetActive(false);
+    codigo.gameObject.SetActive(false);
+
    ingresar.gameObject.SetActive(false);
    luzRoja.SetActive(false);
    luzVerde.SetActive(false);
+    uno.SetActive(false);
+       dos.SetActive(false);
+       tres.SetActive(false);
+       cuatro.SetActive(false);
+       cinco.SetActive(false);
+       seis.SetActive(false);
+       siete.SetActive(false);
+       ocho.SetActive(false);
+       nueve.SetActive(false);
+      
+         reiniciar.SetActive(false);
 }
 
 
 void Task2()
 {
-   if(barra.text=="5763")
+   if(codigo.text=="5763")
             {
               luzRoja.SetActive(false);
               luzVerde.SetActive(true);
