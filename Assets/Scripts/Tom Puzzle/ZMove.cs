@@ -5,8 +5,8 @@ using UnityEngine;
 public class ZMove : MonoBehaviour
 {
     //Movimiento Cubos
-
-
+    private bool MoveD = false;
+    private bool MoveA = false;
     private Rigidbody rb;
     [SerializeField] private float vel;
 
@@ -15,21 +15,17 @@ public class ZMove : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    //private void Update()
-    //{
-    //    Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
-    //    localVelocity.x = 0;
-    //    localVelocity.y = 0;
-
-    //    rb.velocity = transform.TransformDirection(localVelocity);
-    //}
 
     void FixedUpdate()
-    {
-        //Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
-        //localVelocity.x = 0;
-        //localVelocity.y = 0;
-
+    { 
+        if (MoveD == true)
+        {
+            transform.Translate(new Vector3(-vel * Time.deltaTime, 0, 0));
+        }
+        if (MoveA == true)
+        {
+            transform.Translate(new Vector3(vel * Time.deltaTime, 0, 0));
+        }
        
 
         if (Input.GetKey(KeyCode.D))
@@ -42,5 +38,23 @@ public class ZMove : MonoBehaviour
         }
 
         //rb.velocity = transform.TransformDirection(localVelocity);
+    }
+
+    public void DMove()
+    {
+        MoveD = true;
+    }
+    public void DStop()
+    {
+        MoveD = false;
+    }
+
+    public void AMove()
+    {
+        MoveA = true;
+    }
+    public void AStop()
+    {
+        MoveA = false;
     }
 }
