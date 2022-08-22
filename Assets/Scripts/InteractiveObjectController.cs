@@ -1,10 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 using UnityEngine;
 using DG.Tweening;
 
 public class InteractiveObjectController : MonoBehaviour
 {
+    //funtion Activate
+    [SerializeField] UnityEvent IsUsingFuntions;
+    [SerializeField] UnityEvent IsNotUsingFuntions;
+
+
     //camera propietys
     [SerializeField] Transform Camera;
     [SerializeField] GameObject InitialCameraPosition;
@@ -34,6 +40,7 @@ public class InteractiveObjectController : MonoBehaviour
 
     public void IsUsing()
     {
+        IsUsingFuntions.Invoke();
         InitialCameraPosition.GetComponent<InitialCamera>().CanMove = false;
         ButtonMove.transform.DOMoveY(1500f, VelocityToMoving);
         ButtonBack.DOMoveY(500, VelocityToMoving);
@@ -56,6 +63,7 @@ public class InteractiveObjectController : MonoBehaviour
 
     public void IsNotUsing()
     {
+        IsNotUsingFuntions.Invoke();
         Camera.DOMove(InitialCameraPosition.transform.position, VelocityToMoving);
         Camera.DORotate(InitialCameraPosition.transform.rotation.eulerAngles, VelocityToMoving);
         ButtonMove.transform.DOMoveY(375f, VelocityToMoving);
