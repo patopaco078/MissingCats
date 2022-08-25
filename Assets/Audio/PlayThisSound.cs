@@ -18,7 +18,6 @@ public class PlayThisSound : MonoBehaviour
         {
             AudioClip clip = SFXList[UnityEngine.Random.Range(0, SFXList.Length)];
             audioSource.volume = Random.Range(0.9f, 1f);
-            audioSource.pitch = Random.Range(0.9f, 1f);
             audioSource.PlayOneShot(clip);
         }
     }
@@ -27,7 +26,6 @@ public class PlayThisSound : MonoBehaviour
     {
         AudioClip clip = SFXList[UnityEngine.Random.Range(0, SFXList.Length)];
         audioSource.volume = Random.Range(0.9f, 1f);
-        audioSource.pitch = Random.Range(0.9f, 1f);
         audioSource.PlayOneShot(clip);
     }
 }
