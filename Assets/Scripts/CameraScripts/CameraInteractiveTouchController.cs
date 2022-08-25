@@ -6,15 +6,15 @@ using UnityEngine.Rendering.PostProcessing;
 public class CameraInteractiveTouchController : MonoBehaviour
 {
     [SerializeField] Touch touchPlayer;
-    [SerializeField] PostProcessVolume VolumeEffectCamera;
+    //[SerializeField] PostProcessVolume VolumeEffectCamera;
     private bool isInteractingObcjet = false;
-    [SerializeField] Transform targetTransform;
+    //[SerializeField] Transform targetTransform;
 
     private GameObject actualGameObjectUsing;
 
     private void Start()
     {
-        VolumeEffectCamera.enabled = false;
+        //VolumeEffectCamera.enabled = false;
     }
 
     private void Update()
@@ -30,7 +30,7 @@ public class CameraInteractiveTouchController : MonoBehaviour
                 {
                     if(hit.transform.tag == "Interactable" && touchPlayer.phase == TouchPhase.Ended && !isInteractingObcjet)
                     {
-                        VolumeEffectCamera.enabled = true;
+                        //VolumeEffectCamera.enabled = true;
                         isInteractingObcjet = true;
                         actualGameObjectUsing = hit.transform.gameObject;
                         hit.transform.gameObject.GetComponent<InteractiveObjectController>().IsUsing();
@@ -42,7 +42,7 @@ public class CameraInteractiveTouchController : MonoBehaviour
 
     public void ExitUsingObject()
     {
-        VolumeEffectCamera.enabled = false;
+        //VolumeEffectCamera.enabled = false;
         isInteractingObcjet = false;
         actualGameObjectUsing.GetComponent<InteractiveObjectController>().IsNotUsing();
     }
