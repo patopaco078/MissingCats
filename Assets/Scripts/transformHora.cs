@@ -9,7 +9,7 @@ public class transformHora : MonoBehaviour
     [SerializeField]
     float hcorrecta;
 
-    float counter = 0;
+    float counter = 30f;
     bool gano = false;
 
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class transformHora : MonoBehaviour
         {
             GetComponent<Rigidbody>().rotation = Quaternion.Euler( 0f, 0f, counter);
             counter += 30f;
-            Debug.Log(counter);
+            //Debug.Log(counter);
         }
 
         if(GetComponent<Rigidbody>().rotation == Quaternion.Euler(0f,0f, hcorrecta) && gano==false)
@@ -36,11 +36,10 @@ public class transformHora : MonoBehaviour
 
        
     }
-
     public void MoveHour()
     {
         GetComponent<Rigidbody>().rotation = Quaternion.Euler(0f, 0f, counter);
         counter += 30f;
-        Debug.Log(counter);
+
     }
 }
