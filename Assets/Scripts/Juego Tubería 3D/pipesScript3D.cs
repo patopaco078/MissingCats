@@ -59,7 +59,7 @@ void Awake()
  { 
    transformar.Rotate(new Vector3(0,0,90));
    
-   Debug.Log(transform.eulerAngles.z);
+  
       if(PossibleRotation>1)
   {
       if(transformar.transform.eulerAngles.z==correctRotation[0] || transformar.transform.eulerAngles.z==correctRotation[1] && isPlaced==false)
