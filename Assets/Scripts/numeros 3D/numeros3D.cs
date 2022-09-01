@@ -46,6 +46,7 @@ public class numeros3D : MonoBehaviour
       public List<GameObject> revolverBotones;
 
     public ParticleSystem ganaste;
+
       int counter=0;
     // Start is called before the first frame update
     void Start()
@@ -84,6 +85,7 @@ public void pressButton(Transform boton)
           if(counter==10)
           {
             StartCoroutine(presentResult(true));
+            condicion=true;
             ganaste.Play();
            
         
@@ -108,7 +110,7 @@ public IEnumerator presentResult(bool win)
             
            rend.material.color=Color.red;
            
-            condicion=true;
+            
             RestarTheGame();
         }
           
@@ -120,7 +122,8 @@ public IEnumerator presentResult(bool win)
     // Update is called once per frame
     void Update()
     {
-         
+         if(condicion==false)
+         {
          if (Input.GetMouseButtonDown(0)) {  
       Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);  
       
@@ -158,6 +161,7 @@ public IEnumerator presentResult(bool win)
                 if (xRotation) RampObject.rotation = rampQuat * Quaternion.Euler(current, 0f, 0f); // I have a doubt in working correctly
                 else if (yPosition) RampObject.position = new Vector3(RampObject.position.x, startYPosition + current, RampObject.position.z);
             }
+      }
       }
             
 
