@@ -123,6 +123,87 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &25707187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6112521768681063801, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneControllerObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0052835
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8240542
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5569795
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156072788654246937, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b, type: 3}
+--- !u!114 &25707188 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5560428596332109960, guid: f15e8f2ff339dca4eb32f7ca2eea1d3b,
+    type: 3}
+  m_PrefabInstance: {fileID: 25707187}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec1e8eb145b81845acb5e9324e8875f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &113906662
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,14 +424,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 753417521}
-        m_TargetAssemblyTypeName: cambioescena, Assembly-CSharp
-        m_MethodName: loadscene
+      - m_Target: {fileID: 25707188}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1990,7 +2071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
