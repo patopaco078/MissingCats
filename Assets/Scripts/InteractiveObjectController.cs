@@ -23,10 +23,11 @@ public class InteractiveObjectController : MonoBehaviour
     private Vector3 originalPosition, originalRotation;
     private bool isUsing = false;
     [SerializeField] CameraLibraryController CLC;
-    [SerializeField] PipeController Pipe;
+    //[SerializeField] PipeController Pipe;
 
     [SerializeField] bool IsLybrary = false;
-    [SerializeField] bool IsPipe = false;
+    [SerializeField] bool isOtherObject = false;
+    [SerializeField] UnityEvent OtherObjectEvents;
 
     Vector2 touchDeltaPosition;
     Vector3 rotationCamera;
@@ -53,9 +54,9 @@ public class InteractiveObjectController : MonoBehaviour
             CLC.DownButton();
         }
 
-        if(IsPipe && Pipe != null)
+        if(isOtherObject)
         {
-            Pipe.UpPipe();
+            OtherObjectEvents.Invoke();
         }
 
         isUsing = true;
