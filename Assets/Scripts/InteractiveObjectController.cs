@@ -41,6 +41,7 @@ public class InteractiveObjectController : MonoBehaviour
 
     public void IsUsing()
     {
+        Debug.Log("usingON");
         IsUsingFuntions.Invoke();
         InitialCameraPosition.GetComponent<InitialCamera>().CanMove = false;
         ButtonMove.transform.DOMoveY(1500f, VelocityToMoving);
