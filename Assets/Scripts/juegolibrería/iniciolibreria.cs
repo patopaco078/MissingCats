@@ -4,6 +4,7 @@ using UnityEngine.Events;
 
 public class iniciolibreria : MonoBehaviour
 {
+    [SerializeField] private UnityEvent doThis;
     // Start is called before the first frame update
     public GameObject imagen;
     private GameObject cambio;
@@ -387,7 +388,8 @@ void Task2()
             {
               luzRoja.SetActive(false);
               luzVerde.SetActive(true);
-            }
+            doThis.Invoke();
+        }
             else{
               luzRoja.SetActive(true);
             }
