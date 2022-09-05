@@ -1,12 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class transformHora : MonoBehaviour
 {
-    [SerializeField] private UnityEvent doThis;
-
     [SerializeField]
     KeyCode cambioHora;
     [SerializeField]
@@ -34,7 +31,6 @@ public class transformHora : MonoBehaviour
         {
             Debug.Log("posicion correcta");
             gano = true;
-            doThis.Invoke();
         }
 
 
