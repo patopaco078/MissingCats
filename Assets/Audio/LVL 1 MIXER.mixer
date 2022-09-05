@@ -35,7 +35,6 @@ AudioMixerController:
     - a459ca4f1745da949ad07223e734e098
     - e9259940de761324ba0a992053ed45f8
     - be7c45ae9497b734f844fa08cbd83d8e
-    - 840c3543a66012646a94ffc049ae1719
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -84,39 +83,6 @@ AudioMixerSnapshotController:
   m_SnapshotID: 2d7d4bb7d878b2e48b24846dc2cf31e4
   m_FloatValues: {}
   m_TransitionOverrides: {}
---- !u!243 &1560563256856828414
-AudioMixerGroupController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Puzzle Done
-  m_AudioMixer: {fileID: 24100000}
-  m_GroupID: 840c3543a66012646a94ffc049ae1719
-  m_Children: []
-  m_Volume: 259cd6e2b6f720344984548faf9ed218
-  m_Pitch: 37dcfb312c06cd546ae2346f9ba97cbf
-  m_Send: 00000000000000000000000000000000
-  m_Effects:
-  - {fileID: 3608769454760401519}
-  m_UserColorIndex: 0
-  m_Mute: 0
-  m_Solo: 0
-  m_BypassEffects: 0
---- !u!244 &3608769454760401519
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_EffectID: 652c08ce549c0e14687555ef48626f58
-  m_EffectName: Attenuation
-  m_MixLevel: b3072f9e12518e24f8ffaf6a5df59680
-  m_Parameters: []
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 0
 --- !u!243 &4749355892282599502
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -146,7 +112,6 @@ AudioMixerGroupController:
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: e9259940de761324ba0a992053ed45f8
   m_Children:
-  - {fileID: 1560563256856828414}
   - {fileID: 4749355892282599502}
   m_Volume: 9a771fe6388358545b18a9f561931947
   m_Pitch: bcd8b090eaa80cb4594bd86d29f8a8de
