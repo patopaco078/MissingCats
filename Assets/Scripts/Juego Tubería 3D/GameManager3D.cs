@@ -13,6 +13,8 @@ public class GameManager3D : MonoBehaviour
 
     pipesScript3D pipeS;
 
+    bool condicion;
+
     public int CorrectedPipes=0;
     
     //public Button button;
@@ -33,6 +35,8 @@ public class GameManager3D : MonoBehaviour
 
     void Update()
     {
+        if(condicion==false)
+        {
   if (Input.GetMouseButtonDown(0)) {  
   Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);  
       
@@ -49,6 +53,7 @@ public class GameManager3D : MonoBehaviour
         }
     }
         }
+        }
     }
 
     // Update is called once per frame
@@ -58,6 +63,7 @@ public class GameManager3D : MonoBehaviour
         if(CorrectedPipes==TotalPipes)
         {
             Ganaste.Play();
+            condicion=true;
         }
     }
 
