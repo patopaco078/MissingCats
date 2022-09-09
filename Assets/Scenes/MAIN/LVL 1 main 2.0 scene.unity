@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18327379, g: 0.22698802, b: 0.29515457, a: 1}
+  m_IndirectSpecularColor: {r: 0.18327399, g: 0.22698852, b: 0.29515523, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5175,33 +5175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0162193f1b953e4382499bfaecdaba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doThis:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1966166091}
-        m_TargetAssemblyTypeName: PuzzleCounter, Assembly-CSharp
-        m_MethodName: PuzzleDone
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1928736205}
-        m_TargetAssemblyTypeName: PlayThisSound, Assembly-CSharp
-        m_MethodName: Play1Shot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   imagen: {fileID: 838384721}
   luzVerde: {fileID: 1961842934}
   luzRoja: {fileID: 524767431}
@@ -20283,6 +20256,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+--- !u!1 &1608414846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4056124986615033066, guid: f61bfb916ceb03f4b954f58a3f55ed49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1608414845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1608414847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608414846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5592645fe8a6879408b53f2ff7e4b182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1611824640
 GameObject:
   m_ObjectHideFlags: 0
@@ -23672,18 +23666,6 @@ PrefabInstance:
       objectReference: {fileID: 347318275}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff0f7cd6832addc4684983596add0844, type: 3}
---- !u!114 &1928736205 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1649087827, guid: ff0f7cd6832addc4684983596add0844,
-    type: 3}
-  m_PrefabInstance: {fileID: 1928736204}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928736206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77e62d20c114fb949976a462982adf69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1928736206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2799505594589279984, guid: ff0f7cd6832addc4684983596add0844,
