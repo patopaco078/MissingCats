@@ -73,18 +73,9 @@ public  Button cierre;
         listaDeItems[obj].Select();
     }
 
-    public void SwapItems(int arg1, int arg2)
-    {
-        inventarioItem item1 = listaDeItems[arg1];
-        listaDeItems[arg1] = listaDeItems[arg2];
-        listaDeItems[arg2] = item1;
-        informAbautchange();
-    }
 
-    private void informAbautchange()
-    {
-       
-    }
+
+   
 
     private void HandleShowItemActions(inventarioItem obj)
     {
@@ -102,7 +93,7 @@ public  Button cierre;
         int index = listaDeItems.IndexOf(obj);
         if (index == -1)
         {
-       
+           
             return;
 
         }

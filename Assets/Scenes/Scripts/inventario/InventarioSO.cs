@@ -62,6 +62,18 @@ public class InventarioSO : ScriptableObject
     {
         return inventarioItems[obj];
     }
+    public void SwapItems(int arg1, int arg2)
+    {
+        
+        InventarioItemSO item1 = inventarioItems[arg1];
+        inventarioItems[arg1] = inventarioItems[arg2];
+        inventarioItems[arg2] = item1;
+        informAbautchange();
+    }
+    private void informAbautchange()
+    {
+        OnInventoryUpdated?.Invoke(GetCurrentInventoryState());
+    }
 
     private void InformAboutChange()
     {

@@ -70,7 +70,8 @@ public class controlInventario : MonoBehaviour
 
     private void HandleSwapItems(int arg1, int arg2)
     {
-        inventariopagina.SwapItems(arg1, arg2);
+        inventarioData.SwapItems(arg1, arg2);
+        
     }
 
     private void HandleDescriptionRequest(int obj)
