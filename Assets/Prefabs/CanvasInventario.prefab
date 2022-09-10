@@ -399,22 +399,22 @@ PrefabInstance:
     - target: {fileID: 835014028871157283, guid: bab411e60b404bf42a76f1f308ecb70e,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 835014028871157283, guid: bab411e60b404bf42a76f1f308ecb70e,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 835014028871157283, guid: bab411e60b404bf42a76f1f308ecb70e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 17.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 835014028871157283, guid: bab411e60b404bf42a76f1f308ecb70e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -12.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1048365336760560139, guid: bab411e60b404bf42a76f1f308ecb70e,
         type: 3}
@@ -615,7 +615,8 @@ PrefabInstance:
         type: 3}
       propertyPath: itemprefab
       value: 
-      objectReference: {fileID: 4998517242314324478}
+      objectReference: {fileID: 3591054088158046317, guid: e041871666e65d74783d75d8a53fbab4,
+        type: 3}
     - target: {fileID: 4411093851864213573, guid: bab411e60b404bf42a76f1f308ecb70e,
         type: 3}
       propertyPath: m_RaycastTarget
@@ -711,18 +712,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &4998517242314324478 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2234866360275213934, guid: bab411e60b404bf42a76f1f308ecb70e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6511532091130505104}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463506637148875593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab7ce9c0017af5242884e3abafc7cdd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6727587124817118345 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 504591412878418713, guid: bab411e60b404bf42a76f1f308ecb70e,

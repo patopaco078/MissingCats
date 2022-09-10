@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2591,7 +2591,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5680229557461480589
 RectTransform:
@@ -3148,7 +3148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3252,7 +3252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b2d4e2cf7c6b24690dbf59a3b9871f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemprefab: {fileID: 4684775327074511797}
+  itemprefab: {fileID: 3591054088158046317, guid: e041871666e65d74783d75d8a53fbab4,
+    type: 3}
   contentPanel: {fileID: 4736485506644929836}
   inicio: {fileID: 6773551603712165113}
   cierre: {fileID: 4233190253315361408}
