@@ -26,7 +26,11 @@ public class controlInventario : MonoBehaviour
 
     private void PrepareInventoryData()
     {
+        GameObject[] lista = GameObject.FindGameObjectsWithTag("Reset");
+        if(lista.Length==1)
+        { 
         inventarioData.Inicialaze();
+        }
         inventarioData.OnInventoryUpdated += UpDateInventoryUI;
         foreach (InventarioItemSO item in initialItems)
         {
