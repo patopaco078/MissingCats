@@ -4522,7 +4522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -356, y: 1300.0001}
+  m_AnchoredPosition: {x: -320, y: 1300.0001}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374654630
@@ -6686,7 +6686,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -14.999878, y: 1200}
+  m_AnchoredPosition: {x: -15, y: 1200}
   m_SizeDelta: {x: 30, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &633979471
@@ -16803,6 +16803,7 @@ GameObject:
   - component: {fileID: 1161065429}
   - component: {fileID: 1161065428}
   - component: {fileID: 1161065427}
+  - component: {fileID: 1161065432}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -16853,6 +16854,7 @@ MonoBehaviour:
   - {fileID: 1161065416}
   - {fileID: 1161065412}
   - {fileID: 1161065411}
+  - {fileID: 1161065432}
   - {fileID: 1161065414}
   suppressAllAutoSelections: 0
 --- !u!114 &1161065409
@@ -16880,8 +16882,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1161065417}
-  selectedCommands: []
+  - {fileID: 1161065408}
+  selectedCommands:
+  - {fileID: 1161065432}
   variables: []
   description: 
   stepPause: 0
@@ -16922,9 +16925,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Debo encontrarlo antes de que se haga tarde, {w=0.5} de lo contrario
-    tendr\xE9 problemas con mis jefes.\n\n{i}Revisa la habitaci\xF3n desde diferentes
-    angulos usando las fechas de los laterales{/i}"
+  storyText: "Debo encontrarlo antes de que se haga tarde, {w=0.5}de lo contrario
+    tendr\xE9 problemas con mis jefes."
   description: 
   character: {fileID: 1058606348}
   portrait: {fileID: 0}
@@ -16952,8 +16954,8 @@ MonoBehaviour:
   itemId: 1
   indentLevel: 0
   storyText: "{w=0.5}Las huellas me han traido hasta esta habitaci\xF3n.{w=0.5}.{w=0.5}.{w=0.5}\n\xBFD\xF3nde
-    se habr\xE1 metido ese {b}gato{/b}?\n\n{i}Pulsa la {b}fecha{/b} de la esquina
-    inferior para avanzar en los dialogos.{/i}"
+    se habr\xE1 metido ese {b}gato{/b}?\n{i}Pulsa la {b}fecha {color=blue}azul{/color}{/b}
+    de la esquina inferior para avanzar en los dialogos.{/i}"
   description: 
   character: {fileID: 1058606348}
   portrait: {fileID: 0}
@@ -17041,12 +17043,12 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 238.52388
-    y: 68.74645
+    y: 67.71552
     width: 102.23367
     height: 40
   tint: {r: 0.2512756, g: 0.68648416, b: 0.7264151, a: 1}
   useCustomTint: 1
-  itemId: 0
+  itemId: 22
   blockName: Laberinto
   description: Dialogos del 1er Puzzle
   eventHandler: {fileID: 0}
@@ -17220,7 +17222,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 0.3679245, g: 0.21057312, b: 0.22333132, a: 1}
   useCustomTint: 1
-  itemId: 0
+  itemId: 23
   blockName: Reloj Antiguo
   description: Dialogos del 2er Puzzle
   eventHandler: {fileID: 0}
@@ -17274,8 +17276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "\xBFNo deber\xEDa estar movi\xE9ndose las manecillas? {w=0.5}\nDeber\xEDa
-    echarle un ojo m\xE1s de cerca.\n\n{i}Pulsa las {b}manecillas{/b} del reloj para
+  storyText: "\xBFNo deber\xEDa estar movi\xE9ndose las manecillas?{w=0.5}\nDeber\xEDa
+    echarle un ojo m\xE1s de cerca.\n{i}Pulsa las {b}manecillas{/b} del reloj para
     cambiarlas de posici\xF3n{/i}"
   description: 
   character: {fileID: 1058606348}
@@ -17363,8 +17365,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: '{i}Usa la {b}cruceta{/b} de la derecha para mover las fichas de un
-    lado a otro{/i}es angulos usando las fechas de los laterales{/i}'
+  storyText: 'No pierdo nada echandole un vistazo, quizas haya dejado alguna nota
+    entre lineas.
+
+    {i}Pulsa {b}el libro{/b} que desees abrir para leer su contenido{/i}'
   description: 
   character: {fileID: 1058606348}
   portrait: {fileID: 0}
@@ -17391,8 +17395,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "Yo sol\xEDa jugar con uno de estos cuando era chico, {w=0.5}estoy seguro
-    que puedo sacar la ficha {b}naranja{/b} en un dos por tres.\r"
+  storyText: "Es muy excaso ver libros f\xEDsicos, de papel, en estos d\xEDas.{w=0.5}\nMe
+    atrever\xEDa a decir que el due\xF1o se gast\xF3 una suma considerable de dinero
+    en esta peque\xF1a biblioteca.\n"
   description: 
   character: {fileID: 1058606348}
   portrait: {fileID: 0}
@@ -17449,13 +17454,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 533.9556
-    y: 71.7033
+    x: 521.5843
+    y: 67.57958
     width: 87.1134
     height: 40
   tint: {r: 0.8113208, g: 0.32318965, b: 0.21941373, a: 1}
   useCustomTint: 1
-  itemId: 0
+  itemId: 24
   blockName: Liberia
   description: Dialogos del 3er Puzzle
   eventHandler: {fileID: 0}
@@ -17465,6 +17470,34 @@ MonoBehaviour:
   - {fileID: 1161065428}
   - {fileID: 1161065427}
   suppressAllAutoSelections: 0
+--- !u!114 &1161065432
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161065406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  storyText: "{i}Revisa la habitaci\xF3n desde diferentes angulos, usando {b} las
+    fechas de los laterales{/b}, para buscar las 3 pistas que se esconden en la habiaci\xF3n{/i}"
+  description: 
+  character: {fileID: 1058606348}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1167421391
 GameObject:
   m_ObjectHideFlags: 0
