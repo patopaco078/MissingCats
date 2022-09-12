@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine.Events;
 using UnityEngine;
 using DG.Tweening;
+using Fungus;
 
 public class InteractiveObjectController : MonoBehaviour
 {
+    //Fungus:
+    [SerializeField] Flowchart flowTest;
+    
     //funtion Activate
     [SerializeField] UnityEvent IsUsingFuntions;
     [SerializeField] UnityEvent IsNotUsingFuntions;
@@ -50,9 +54,14 @@ public class InteractiveObjectController : MonoBehaviour
         Camera.DORotate(ZoomTarget.rotation.eulerAngles, VelocityToMoving);
         gameObject.GetComponent<BoxCollider>().enabled = false;
 
+        if (IsLybrary)
+        {
+            flowTest.ExecuteBlock("Liberia");
+        }
         if (IsLybrary && CLC != null)
         {
             CLC.DownButton();
+            //flowTest.ExecuteBlock("Reloj Antiguo");
         }
 
         if(isOtherObject)

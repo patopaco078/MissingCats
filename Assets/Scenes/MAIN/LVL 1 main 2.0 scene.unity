@@ -3163,6 +3163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flowTest: {fileID: 1161065409}
   IsUsingFuntions:
     m_PersistentCalls:
       m_Calls: []
@@ -13723,6 +13724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flowTest: {fileID: 1161065409}
   IsUsingFuntions:
     m_PersistentCalls:
       m_Calls: []
@@ -16804,6 +16806,7 @@ GameObject:
   - component: {fileID: 1161065428}
   - component: {fileID: 1161065427}
   - component: {fileID: 1161065432}
+  - component: {fileID: 1161065433}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -16813,7 +16816,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1161065407
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16828,7 +16831,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1161065408
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16882,14 +16885,13 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1161065408}
-  selectedCommands:
-  - {fileID: 1161065432}
+  - {fileID: 1161065431}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
   colorCommands: 1
-  hideComponents: 1
+  hideComponents: 0
   saveSelection: 1
   localizationId: 
   showLineNumbers: 0
@@ -16903,9 +16905,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161065406}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00000011920929, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -16913,7 +16915,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1161065411
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16941,7 +16943,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065412
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16970,7 +16972,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065414
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17000,7 +17002,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065416
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17030,7 +17032,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065417
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17060,7 +17062,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1161065418
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17090,7 +17092,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065419
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17118,7 +17120,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065420
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17146,7 +17148,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065421
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17176,7 +17178,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065422
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17204,7 +17206,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065423
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17216,8 +17218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 367.80206
-    y: 67.4066
+    x: 368.83298
+    y: 63.282883
     width: 122.852234
     height: 40
   tint: {r: 0.3679245, g: 0.21057312, b: 0.22333132, a: 1}
@@ -17225,7 +17227,7 @@ MonoBehaviour:
   itemId: 23
   blockName: Reloj Antiguo
   description: Dialogos del 2er Puzzle
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1161065433}
   commandList:
   - {fileID: 1161065426}
   - {fileID: 1161065422}
@@ -17234,7 +17236,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1161065424
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17264,7 +17266,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065425
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17293,7 +17295,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065426
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17323,7 +17325,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065427
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17353,7 +17355,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065428
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17383,7 +17385,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065429
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17412,7 +17414,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065430
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17442,7 +17444,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1161065431
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17472,7 +17474,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1161065432
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17498,6 +17500,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1161065433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161065406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1161065423}
+  suppressBlockAutoSelect: 0
+  message: mensaje
 --- !u!1 &1167421391
 GameObject:
   m_ObjectHideFlags: 0
@@ -26285,6 +26302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UiRelog: {fileID: 581765749}
   UiTablero: {fileID: 388167825}
+  flowTest: {fileID: 1161065409}
 --- !u!4 &2140657760
 Transform:
   m_ObjectHideFlags: 0
