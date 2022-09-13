@@ -3163,6 +3163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flowTest: {fileID: 0}
   IsUsingFuntions:
     m_PersistentCalls:
       m_Calls: []
@@ -13447,6 +13448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flowTest: {fileID: 0}
   IsUsingFuntions:
     m_PersistentCalls:
       m_Calls: []
@@ -14640,7 +14642,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '>'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22356,7 +22358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<
+  m_text: '
 
 '
   m_isRightToLeft: 0
@@ -25359,6 +25361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UiRelog: {fileID: 581765749}
   UiTablero: {fileID: 388167825}
+  flowTest: {fileID: 0}
 --- !u!4 &2140657760
 Transform:
   m_ObjectHideFlags: 0
@@ -28091,6 +28094,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 119911741821931275, guid: 38da68029de832844800127f8dfa6ebe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908245079107945971, guid: 38da68029de832844800127f8dfa6ebe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908245079107945971, guid: 38da68029de832844800127f8dfa6ebe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.376
+      objectReference: {fileID: 0}
     - target: {fileID: 3339375981158061884, guid: 38da68029de832844800127f8dfa6ebe,
         type: 3}
       propertyPath: m_RootOrder
