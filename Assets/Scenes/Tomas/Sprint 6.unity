@@ -3163,7 +3163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowTest: {fileID: 1161065409}
   IsUsingFuntions:
     m_PersistentCalls:
       m_Calls: []
@@ -4523,7 +4522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: 1300.0001}
+  m_AnchoredPosition: {x: -356, y: 1300.0001}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374654630
@@ -5600,7 +5599,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 335, y: 0}
-  m_SizeDelta: {x: 30, y: 250}
+  m_SizeDelta: {x: 80, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &524636989
 MonoBehaviour:
@@ -5671,7 +5670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.11372549}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.007843138}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6687,7 +6686,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: 1200}
+  m_AnchoredPosition: {x: -14.999878, y: 1200}
   m_SizeDelta: {x: 30, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &633979471
@@ -13580,7 +13579,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64.5, y: 69.4}
+  m_AnchoredPosition: {x: -65.4, y: 69.4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &879655365
@@ -13724,7 +13723,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowTest: {fileID: 1161065409}
   IsUsingFuntions:
     m_PersistentCalls:
       m_Calls: []
@@ -16787,26 +16785,10 @@ GameObject:
   - component: {fileID: 1161065408}
   - component: {fileID: 1161065407}
   - component: {fileID: 1161065412}
+  - component: {fileID: 1161065413}
   - component: {fileID: 1161065411}
   - component: {fileID: 1161065414}
-  - component: {fileID: 1161065416}
-  - component: {fileID: 1161065417}
-  - component: {fileID: 1161065421}
-  - component: {fileID: 1161065420}
-  - component: {fileID: 1161065419}
-  - component: {fileID: 1161065418}
-  - component: {fileID: 1161065423}
-  - component: {fileID: 1161065426}
-  - component: {fileID: 1161065422}
-  - component: {fileID: 1161065425}
-  - component: {fileID: 1161065424}
-  - component: {fileID: 1161065431}
-  - component: {fileID: 1161065430}
-  - component: {fileID: 1161065429}
-  - component: {fileID: 1161065428}
-  - component: {fileID: 1161065427}
-  - component: {fileID: 1161065432}
-  - component: {fileID: 1161065433}
+  - component: {fileID: 1161065415}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -16816,7 +16798,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1161065407
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16831,7 +16813,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1161065408
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16844,8 +16826,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 130
-    y: 73.9011
-    width: 78.86598
+    y: 75
+    width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16854,10 +16836,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1161065407}
   commandList:
-  - {fileID: 1161065416}
+  - {fileID: 1161065413}
   - {fileID: 1161065412}
   - {fileID: 1161065411}
-  - {fileID: 1161065432}
   - {fileID: 1161065414}
   suppressAllAutoSelections: 0
 --- !u!114 &1161065409
@@ -16873,11 +16854,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 92.25767, y: -1.2376822}
+  scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.97
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -16885,13 +16866,14 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1161065431}
-  selectedCommands: []
+  - {fileID: 1161065408}
+  selectedCommands:
+  - {fileID: 1161065413}
   variables: []
   description: 
   stepPause: 0
   colorCommands: 1
-  hideComponents: 0
+  hideComponents: 1
   saveSelection: 1
   localizationId: 
   showLineNumbers: 0
@@ -16905,9 +16887,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161065406}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00000011920929, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -16915,7 +16897,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1161065411
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16927,8 +16909,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Debo encontrarlo antes de que se haga tarde, {w=0.5}de lo contrario
-    tendr\xE9 problemas con mis jefes."
+  storyText: "Debo encontrarlo antes de que se haga tarde {w=0.5} O tendr\xE9 problemas
+    con mis jefes.\n\nTendr\xE9 que revisar d\xF3nde pueda est\xE1r escondido"
   description: 
   character: {fileID: 1058606348}
   portrait: {fileID: 0}
@@ -16943,7 +16925,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1161065412
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16955,9 +16937,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "{w=0.5}Las huellas me han traido hasta esta habitaci\xF3n.{w=0.5}.{w=0.5}.{w=0.5}\n\xBFD\xF3nde
-    se habr\xE1 metido ese {b}gato{/b}?\n{i}Pulsa la {b}fecha {color=blue}azul{/color}{/b}
-    de la esquina inferior para avanzar en los dialogos.{/i}"
+  storyText: "{w=0.5}.Las huellas me han traido hasta esta habitaci\xF3n.{w=0.5}.{w=0.5}.{w=0.5}\n\xBFD\xF3nde
+    se habr\xE1 metido ese {b}gato{/b}?\n"
   description: 
   character: {fileID: 1058606348}
   portrait: {fileID: 0}
@@ -16970,9 +16951,39 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1161065413
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161065406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1058606348}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7b7927117362c2c49945038630c303cb, type: 3}
+  offset: 0
+  fromPosition: {fileID: 659825108}
+  toPosition: {fileID: 1674846328}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1161065414
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17000,39 +17011,9 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &1161065416
+--- !u!114 &1161065415
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1058606348}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f4d0ee394f1bfd1439c68d612e88abe9, type: 3}
-  offset: 0
-  fromPosition: {fileID: 659825108}
-  toPosition: {fileID: 1674846328}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &1161065417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17044,477 +17025,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 238.52388
-    y: 67.71552
-    width: 102.23367
+    x: 255
+    y: 80
+    width: 113.33333
     height: 40
-  tint: {r: 0.2512756, g: 0.68648416, b: 0.7264151, a: 1}
-  useCustomTint: 1
-  itemId: 22
-  blockName: Laberinto
-  description: Dialogos del 1er Puzzle
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 5
+  blockName: New Block
+  description: 
   eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1161065421}
-  - {fileID: 1161065420}
-  - {fileID: 1161065419}
-  - {fileID: 1161065418}
+  commandList: []
   suppressAllAutoSelections: 0
---- !u!114 &1161065418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1058606348}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 659825108}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &1161065419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  storyText: '{i}Usa la {b}cruceta{/b} de la derecha para mover las fichas de un
-    lado a otro{/i}es angulos usando las fechas de los laterales{/i}'
-  description: 
-  character: {fileID: 1058606348}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1161065420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 0
-  storyText: "Yo sol\xEDa jugar con uno de estos cuando era chico, {w=0.5}estoy seguro
-    que puedo sacar la ficha {b}naranja{/b} en un dos por tres.\r"
-  description: 
-  character: {fileID: 1058606348}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1161065421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1058606348}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f4d0ee394f1bfd1439c68d612e88abe9, type: 3}
-  offset: 0
-  fromPosition: {fileID: 659825108}
-  toPosition: {fileID: 1674846328}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &1161065422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  storyText: "Hace mucho tiempo que no ve\xEDa uno de estos {w=0.5}. {w=0.5}. {w=0.5}.\n\xBFC\xF3mo
-    los llamaban? {w=0.5} relojes anal\xF3gicos de p\xE9ndulo, si mal no recuerdo."
-  description: 
-  character: {fileID: 1058606348}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1161065423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 368.83298
-    y: 63.282883
-    width: 122.852234
-    height: 40
-  tint: {r: 0.3679245, g: 0.21057312, b: 0.22333132, a: 1}
-  useCustomTint: 1
-  itemId: 23
-  blockName: Reloj Antiguo
-  description: Dialogos del 2er Puzzle
-  eventHandler: {fileID: 1161065433}
-  commandList:
-  - {fileID: 1161065426}
-  - {fileID: 1161065422}
-  - {fileID: 1161065425}
-  - {fileID: 1161065424}
-  suppressAllAutoSelections: 0
---- !u!114 &1161065424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1058606348}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 659825108}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &1161065425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  storyText: "\xBFNo deber\xEDa estar movi\xE9ndose las manecillas?{w=0.5}\nDeber\xEDa
-    echarle un ojo m\xE1s de cerca.\n{i}Pulsa las {b}manecillas{/b} del reloj para
-    cambiarlas de posici\xF3n{/i}"
-  description: 
-  character: {fileID: 1058606348}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1161065426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1058606348}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f4d0ee394f1bfd1439c68d612e88abe9, type: 3}
-  offset: 0
-  fromPosition: {fileID: 659825108}
-  toPosition: {fileID: 1674846328}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &1161065427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 21
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1058606348}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 659825108}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &1161065428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  storyText: 'No pierdo nada echandole un vistazo, quizas haya dejado alguna nota
-    entre lineas.
-
-    {i}Pulsa {b}el libro{/b} que desees abrir para leer su contenido{/i}'
-  description: 
-  character: {fileID: 1058606348}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1161065429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 0
-  storyText: "Es muy excaso ver libros f\xEDsicos, de papel, en estos d\xEDas.{w=0.5}\nMe
-    atrever\xEDa a decir que el due\xF1o se gast\xF3 una suma considerable de dinero
-    en esta peque\xF1a biblioteca.\n"
-  description: 
-  character: {fileID: 1058606348}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1161065430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 18
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1058606348}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f4d0ee394f1bfd1439c68d612e88abe9, type: 3}
-  offset: 0
-  fromPosition: {fileID: 659825108}
-  toPosition: {fileID: 1674846328}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &1161065431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 521.5843
-    y: 67.57958
-    width: 87.1134
-    height: 40
-  tint: {r: 0.8113208, g: 0.32318965, b: 0.21941373, a: 1}
-  useCustomTint: 1
-  itemId: 24
-  blockName: Liberia
-  description: Dialogos del 3er Puzzle
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1161065430}
-  - {fileID: 1161065429}
-  - {fileID: 1161065428}
-  - {fileID: 1161065427}
-  suppressAllAutoSelections: 0
---- !u!114 &1161065432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  storyText: "{i}Revisa la habitaci\xF3n desde diferentes angulos, usando {b} las
-    fechas de los laterales{/b}, para buscar las 3 pistas que se esconden en la habiaci\xF3n{/i}"
-  description: 
-  character: {fileID: 1058606348}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1161065433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161065406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1161065423}
-  suppressBlockAutoSelect: 0
-  message: mensaje
 --- !u!1 &1167421391
 GameObject:
   m_ObjectHideFlags: 0
@@ -20734,27 +20256,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
---- !u!1 &1608414846 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4056124986615033066, guid: f61bfb916ceb03f4b954f58a3f55ed49,
-    type: 3}
-  m_PrefabInstance: {fileID: 1608414845}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1608414847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608414846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5592645fe8a6879408b53f2ff7e4b182, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doThis:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1611824640
 GameObject:
   m_ObjectHideFlags: 0
@@ -22847,7 +22348,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -335, y: 0}
-  m_SizeDelta: {x: 30, y: 250}
+  m_SizeDelta: {x: 80, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840504853
 MonoBehaviour:
@@ -22918,7 +22419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.11372549}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.007843138}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -26323,7 +25824,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UiRelog: {fileID: 581765749}
   UiTablero: {fileID: 388167825}
-  flowTest: {fileID: 1161065409}
 --- !u!4 &2140657760
 Transform:
   m_ObjectHideFlags: 0
