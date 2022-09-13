@@ -11,9 +11,11 @@ public class inventariopagina : MonoBehaviour
     [SerializeField]
     private RectTransform contentPanel;
 
-    public Button inicio;
+
 
 public  Button cierre;
+
+    public GameObject UIDes;
 
 [SerializeField] private inventarioDescripcion descripcion;
 
@@ -38,7 +40,6 @@ public  Button cierre;
         Hide();
         descripcion.ResetDescription();
         
-        inicio.gameObject.SetActive(true);
        }
 
        public void IniciarInventario(int tamanoInventario)
@@ -67,6 +68,8 @@ public  Button cierre;
 
     public void UpDateDescription(int obj, Sprite itemImagen, string name, string description)
     {
+        Debug.Log("Algo");
+       
         descripcion.SetDescription(itemImagen, name, description);
         
         DeselectAllItems();
@@ -141,6 +144,11 @@ public  Button cierre;
         ResetSelection();
     }
 
+    public void showDescription()
+    {
+        UIDes.SetActive(true);
+    }
+
    public  void ResetSelection()
     {
         descripcion.ResetDescription();
@@ -157,9 +165,8 @@ public  Button cierre;
 
     public void Hide()
        {
-        gameObject.SetActive(false);
-        ResetDraggedItem();
-        inicio.gameObject.SetActive(true);
+        UIDes.SetActive(false);
+       
        }
     // Start is called before the first frame update
     void Start()

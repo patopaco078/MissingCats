@@ -11,26 +11,24 @@ public class controlInventario : MonoBehaviour
     private inventariopagina inventariopagina;
     [SerializeField]
     private InventarioSO inventarioData;
-  public  Button inicio;
+
 
     List<InventarioItemSO> initialItems = new List<InventarioItemSO>();
 
     public void Start()
     {
-        //inventarioData.Inicialaze();
+        inventarioData.Inicialaze();
         PrepareUI();
-    
-        inicio.onClick.AddListener(Task);
+        
+
+
         PrepareInventoryData();
     }
 
     private void PrepareInventoryData()
     {
-        GameObject[] lista = GameObject.FindGameObjectsWithTag("Reset");
-        if(lista.Length==1)
-        { 
+        
         inventarioData.Inicialaze();
-        }
         inventarioData.OnInventoryUpdated += UpDateInventoryUI;
         foreach (InventarioItemSO item in initialItems)
         {
@@ -80,33 +78,42 @@ public class controlInventario : MonoBehaviour
 
     private void HandleDescriptionRequest(int obj)
     {
+      
         InventarioItemSO itemI = inventarioData.GetItemAt(obj);
         if (itemI.IsEmpty)
         {
             inventariopagina.ResetSelection();
+            inventariopagina.Hide();
             return;
         }
-        itemSO iSO = itemI.item;
-        inventariopagina.UpDateDescription(obj, iSO.itemImagen, iSO.name, iSO.Description);
+        else
+        {
+            inventariopagina.showDescription();
+            itemSO iSO = itemI.item;
+            inventariopagina.UpDateDescription(obj, iSO.itemImagen, iSO.Name, iSO.Description);
+
+        }
+       
+
     }
 
     public void Update()
     {
-       
+        foreach (var item in inventarioData.GetCurrentInventoryState())
+        {
+            inventariopagina.UpDateData(item.Key, item.Value.item.itemImagen);
+
+        }
+
     }
 
-   void Task()
+    void Task()
     {
         
            
-                inventariopagina.Show();
-        inicio.gameObject.SetActive(false);
-                foreach (var item in inventarioData.GetCurrentInventoryState())
-                {
-                    inventariopagina.UpDateData(item.Key, item.Value.item.itemImagen);
-
-                }
-            
+               
+       
+               
         }
     
 }
