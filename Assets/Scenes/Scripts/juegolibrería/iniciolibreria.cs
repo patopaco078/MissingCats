@@ -27,21 +27,18 @@ public GameObject text1_1;
 public GameObject text1_2;
 public GameObject text1_3;
 public GameObject text1_4;
-public GameObject text1_5;
-public GameObject text1_6;
+
 public GameObject text2_1;
 public GameObject text2_2;
 public GameObject text2_3;
 public GameObject text2_4;
-public GameObject text2_5;
-public GameObject text2_6;
+
 
 public GameObject text3_1;
 public GameObject text3_2;
 public GameObject text3_3;
 public GameObject text3_4;
-public GameObject text3_5;
-public GameObject text3_6;
+
 
 public GameObject uno;
 public GameObject dos;
@@ -67,20 +64,17 @@ public Button ingresar;
         text1_2.SetActive(false);
          text1_3.SetActive(false);
           text1_4.SetActive(false);
-           text1_5.SetActive(false);
-            text1_6.SetActive(false);
+           
              text2_1.SetActive(false);
               text2_2.SetActive(false);
                text2_3.SetActive(false);
                 text2_4.SetActive(false);
-                 text2_5.SetActive(false);
-                  text2_6.SetActive(false);
+               
                    text3_1.SetActive(false);
                     text3_2.SetActive(false);
                      text3_3.SetActive(false);
                       text3_4.SetActive(false);
-                       text3_5.SetActive(false);
-                        text3_6.SetActive(false);
+                     
 
        uno.SetActive(false);
        dos.SetActive(false);
@@ -132,61 +126,44 @@ public Button ingresar;
        if(condicion==false)
        {
      
-        if(hit.transform.name.Equals("Box104-3"))
+        if(hit.transform.name.Equals("Box101-3"))
         {
             imagen.SetActive(true);
-           cambio=text1_1;
+           cambio=text3_1;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
         }
-        if(hit.transform.name.Equals("Box105-3"))
+        if(hit.transform.name.Equals("Box102-3"))
         {
             
             imagen.SetActive(true);
-              cambio=text1_4;
+              cambio=text3_4;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
            
         }
-        if(hit.transform.name.Equals("Box106-3"))
+        if(hit.transform.name.Equals("Box103-3"))
         {
             imagen.SetActive(true);
-              cambio=text1_3;
+              cambio=text3_3;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
            
         }
-        if(hit.transform.name.Equals("Box107-3"))
+        
+        if(hit.transform.name.Equals("Box104-3"))
         {
             imagen.SetActive(true);
-              cambio=text1_5;
-                  flecha.gameObject.SetActive(true);
-           cambio.SetActive(true);
-           condicion=true;
-         
-        }
-        if(hit.transform.name.Equals("Box108-3"))
-        {
-            imagen.SetActive(true);
-              cambio=text1_6;
+              cambio=text3_2;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
            
         }
-        if(hit.transform.name.Equals("Box109-3"))
-        {
-            imagen.SetActive(true);
-              cambio=text1_2;
-                  flecha.gameObject.SetActive(true);
-           cambio.SetActive(true);
-           condicion=true;
-           
-        }
-        if(hit.transform.name.Equals("Box104-2"))
+        if(hit.transform.name.Equals("Box101-2"))
         {
             imagen.SetActive(true);
               cambio=text2_2;
@@ -195,17 +172,8 @@ public Button ingresar;
            condicion=true;
       
         }
-        if(hit.transform.name.Equals("Box105-2"))
-        {
-            imagen.SetActive(true);
-              cambio=text2_5;
-                  flecha.gameObject.SetActive(true);
-           cambio.SetActive(true);
-           condicion=true;
-      
-      
-        }
-        if(hit.transform.name.Equals("Box106-2"))
+       
+        if(hit.transform.name.Equals("Box102-2"))
         {
             imagen.SetActive(true);
               cambio=text2_1;
@@ -215,17 +183,8 @@ public Button ingresar;
       
            
         }
-        if(hit.transform.name.Equals("Box107-2"))
-        {
-            imagen.SetActive(true);
-              cambio=text2_6;
-                  flecha.gameObject.SetActive(true);
-           cambio.SetActive(true);
-           condicion=true;
-      
-            
-        }
-        if(hit.transform.name.Equals("Box108-2"))
+       
+        if(hit.transform.name.Equals("Box103-2"))
         {
             imagen.SetActive(true);
               cambio=text2_3;
@@ -235,7 +194,7 @@ public Button ingresar;
       
            
         }
-        if(hit.transform.name.Equals("Box109-2"))
+        if(hit.transform.name.Equals("Box104-2"))
         {
             imagen.SetActive(true);
               cambio=text2_4;
@@ -245,71 +204,53 @@ public Button ingresar;
       
            
         }
-        if(hit.transform.name.Equals("Box104-1"))
+        if(hit.transform.name.Equals("Box101-1"))
         {
             imagen.SetActive(true);
-              cambio=text3_1;
+              cambio=text1_1;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
            
         }
-         if(hit.transform.name.Equals("Box105-1"))
+         if(hit.transform.name.Equals("Box102-1"))
         {
             imagen.SetActive(true);
-              cambio=text3_2;
+              cambio=text1_2;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
            
         }
-         if(hit.transform.name.Equals("Box106-1"))
+         if(hit.transform.name.Equals("Box103-1"))
         {
             imagen.SetActive(true);
-              cambio=text3_3;
+              cambio=text1_3;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
            
         }
-         if(hit.transform.name.Equals("Box107-1"))
+         if(hit.transform.name.Equals("Box104-1"))
         {
             imagen.SetActive(true);
-              cambio=text3_4;
+              cambio=text1_4;
                   flecha.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
            
         }
-         if(hit.transform.name.Equals("Box108-1"))
-        {
-            imagen.SetActive(true);
-              cambio=text3_5;
-                  flecha.gameObject.SetActive(true);
-           cambio.SetActive(true);
-           condicion=true;
-      
-           
-        }
-          if(hit.transform.name.Equals("Box109-1"))
-        {
-            imagen.SetActive(true);
-              cambio=text3_6;
-                  flecha.gameObject.SetActive(true);
-           cambio.SetActive(true);
-           condicion=true;
-      
-           
-        }
+        
+         
 
           if(hit.transform.name.Equals("Clipboard"))
         {
             imagenFlechas.SetActive(true);
-             cambio=text3_6;
+                        cambio = text3_4;
                   flecha.gameObject.SetActive(true);
                   condicion=true;
                       cambio.SetActive(false);
@@ -322,7 +263,7 @@ public Button ingresar;
         {
             fondo.SetActive(true);
             contraseña_texto.SetActive(true);
-             cambio=text3_6;
+                        cambio = text3_4;
                   flecha.gameObject.SetActive(true);
                   condicion=true;
                       cambio.SetActive(false);
