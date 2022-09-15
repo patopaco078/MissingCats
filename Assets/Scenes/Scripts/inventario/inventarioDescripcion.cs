@@ -8,6 +8,7 @@ public class inventarioDescripcion : MonoBehaviour
 {
 
     [SerializeField] public Image ItemImagen;
+    [SerializeField] public Image ItemImagenDescrpcion;
     [SerializeField] public TMP_Text titulo;
     [SerializeField] public TMP_Text descripcion;
 
@@ -24,12 +25,27 @@ public class inventarioDescripcion : MonoBehaviour
 
     }
 
-    public void SetDescription(Sprite sprite, string nombreItem, string descripcionItem)
+    public void SetDescription(bool condicion,Sprite sprite, Sprite ImagenDescripcion, string nombreItem, string descripcionItem)
     {
+        
         this.ItemImagen.gameObject.SetActive(true);
         this.ItemImagen.sprite = sprite;
         this.titulo.text = nombreItem;
         this.descripcion.text = descripcionItem;
+        this.ItemImagenDescrpcion.sprite = ImagenDescripcion;
+        if (condicion == true)
+        {
+            ItemImagenDescrpcion.gameObject.SetActive(true);
+            titulo.gameObject.SetActive(false);
+            descripcion.gameObject.SetActive(false);
+        }
+        else
+        {
+            ItemImagenDescrpcion.gameObject.SetActive(false);
+            titulo.gameObject.SetActive(true);
+            descripcion.gameObject.SetActive(true);
+
+        }
     }
 
 }

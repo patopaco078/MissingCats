@@ -90,7 +90,7 @@ public class controlInventario : MonoBehaviour
         {
             inventariopagina.showDescription();
             itemSO iSO = itemI.item;
-            inventariopagina.UpDateDescription(obj, iSO.itemImagen, iSO.Name, iSO.Description);
+            inventariopagina.UpDateDescription(obj, iSO.activarImagen, iSO.itemImagen,iSO.itemImagenDescripción, iSO.Name, iSO.Description);
 
         }
        
