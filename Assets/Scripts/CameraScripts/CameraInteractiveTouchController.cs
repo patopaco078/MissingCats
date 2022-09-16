@@ -30,8 +30,12 @@ public class CameraInteractiveTouchController : MonoBehaviour
                 {
                     if(hit.transform.tag == "Interactable" && touchPlayer.phase == TouchPhase.Ended && !isInteractingObcjet)
                     {
-                        Debug.Log("Istouchme");
-                        //VolumeEffectCamera.enabled = true;
+                        isInteractingObcjet = true;
+                        actualGameObjectUsing = hit.transform.gameObject;
+                        hit.transform.gameObject.GetComponent<InteractiveObjectController>().IsUsing();
+                    }
+                    if (hit.transform.tag == "button" && touchPlayer.phase == TouchPhase.Ended && !isInteractingObcjet)
+                    {
                         isInteractingObcjet = true;
                         actualGameObjectUsing = hit.transform.gameObject;
                         hit.transform.gameObject.GetComponent<InteractiveObjectController>().IsUsing();
