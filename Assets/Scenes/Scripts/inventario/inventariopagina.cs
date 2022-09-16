@@ -66,11 +66,11 @@ public  Button cierre;
         }
     }
 
-    public void UpDateDescription(int obj, Sprite itemImagen, string name, string description)
+    public void UpDateDescription(int obj, bool condicion,Sprite itemImagen,Sprite ItemImagenDescripcion, string name, string description)
     {
         Debug.Log("Algo");
        
-        descripcion.SetDescription(itemImagen, name, description);
+        descripcion.SetDescription(condicion,itemImagen,ItemImagenDescripcion, name, description);
         
         DeselectAllItems();
         listaDeItems[obj].Select();

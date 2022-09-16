@@ -10,9 +10,14 @@ public class itemSO : ScriptableObject
     
       [field: SerializeField]
     public string Name { get; set; }
+    [field: SerializeField]
+    public bool activarImagen;
 
     [field: SerializeField]
     public Sprite itemImagen { get; set; }
+
+    [field: SerializeField]
+    public Sprite itemImagenDescripción;
 
     [field: SerializeField]
     [field: TextArea]
