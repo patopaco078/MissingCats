@@ -8,9 +8,6 @@ public class uvControllerGame : MonoBehaviour
     private bool ActiveUV = false;
     [SerializeField] GameObject lightUV;
     [SerializeField] GameObject normalLight;
-    [SerializeField] GameObject normalLight2;
-    [SerializeField] GameObject normalLight3;
-    [SerializeField] GameObject normalLight4;
 
     Animator animator;
 
@@ -30,9 +27,6 @@ public class uvControllerGame : MonoBehaviour
         {
             animator.SetTrigger("active");
             normalLight.SetActive(false);
-            normalLight2.SetActive(false);
-            normalLight3.SetActive(false);
-            normalLight4.SetActive(false);
             lightUV.SetActive(true);
         }
     }
