@@ -5,6 +5,7 @@ using UnityEngine;
 public class fallCardScript : MonoBehaviour
 {
     private Animator animator;
+    [SerializeField] uvControllerGame UV;
 
     private void Start()
     {
@@ -15,6 +16,7 @@ public class fallCardScript : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             animator.SetTrigger("fall");
+            UV.HaveACard();
         }
     }
 }

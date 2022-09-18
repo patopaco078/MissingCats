@@ -5,6 +5,7 @@ using UnityEngine;
 public class uvControllerGame : MonoBehaviour
 {
     [SerializeField] private bool haveACard = false;
+    private bool ActiveUV = false;
     [SerializeField] GameObject lightUV;
     [SerializeField] GameObject normalLight;
 
@@ -22,7 +23,7 @@ public class uvControllerGame : MonoBehaviour
         {
             Debug.Log("¡REVISA LAS LUCES, TANTO LA UV COMO LA NORMAL DE ESTE SCRIPT!");
         }
-        if (haveACard && (lightUV != null && normalLight != null))
+        if (ActiveUV && (lightUV != null && normalLight != null))
         {
             animator.SetTrigger("active");
             normalLight.SetActive(false);
@@ -33,5 +34,13 @@ public class uvControllerGame : MonoBehaviour
     public void HaveACard()
     {
         haveACard = true;
+    }
+
+    public void LightUV()
+    {
+        if (haveACard)
+        {
+            ActiveUV = true;
+        }
     }
 }
