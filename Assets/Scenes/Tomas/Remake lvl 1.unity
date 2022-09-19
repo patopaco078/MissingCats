@@ -1282,6 +1282,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205164195}
   m_Mesh: {fileID: 6669071823752187032, guid: a4efede2ea203be479b1029472545845, type: 3}
+--- !u!1 &228635365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 228635366}
+  m_Layer: 0
+  m_Name: TargetZoom
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &228635366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228635365}
+  m_LocalRotation: {x: 0.05271031, y: -0.70513946, z: 0.05271031, w: 0.70513946}
+  m_LocalPosition: {x: 0.88, y: 0.135, z: 0.157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 386060731}
+  m_Father: {fileID: 1615936079}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 8.55, y: -90, z: 0}
 --- !u!1 &258805731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,8 +1383,8 @@ MonoBehaviour:
   Camera: {fileID: 963194228}
   InitialCameraPosition: {fileID: 604667419}
   ZoomTarget: {fileID: 1775290847}
-  ButtonMove: {fileID: 0}
-  ButtonBack: {fileID: 0}
+  ButtonMove: {fileID: 899024305}
+  ButtonBack: {fileID: 7967887991091928884}
   Target: {fileID: 1775290847}
   VelocityToMoving: 0.5
   CLC: {fileID: 963194229}
@@ -2267,6 +2299,161 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364636017}
   m_Mesh: {fileID: 6319779756270549797, guid: a4efede2ea203be479b1029472545845, type: 3}
+--- !u!1 &386060730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 386060731}
+  - component: {fileID: 386060735}
+  - component: {fileID: 386060734}
+  - component: {fileID: 386060733}
+  - component: {fileID: 386060732}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &386060731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386060730}
+  m_LocalRotation: {x: -0, y: -0.99721783, z: 0.07454364, w: 0}
+  m_LocalPosition: {x: -0.09899989, y: -0.13105603, z: 0.81655955}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 228635366}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &386060732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386060730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowTest: {fileID: 1161065409}
+  IsUsingFuntions:
+    m_PersistentCalls:
+      m_Calls: []
+  IsNotUsingFuntions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2140657759}
+        m_TargetAssemblyTypeName: Level1_ControllerZoom, Assembly-CSharp
+        m_MethodName: DesactiveTableroUi
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Camera: {fileID: 963194228}
+  InitialCameraPosition: {fileID: 604667419}
+  ZoomTarget: {fileID: 228635366}
+  ButtonMove: {fileID: 899024305}
+  ButtonBack: {fileID: 7967887991091928884}
+  Target: {fileID: 228635366}
+  VelocityToMoving: 0.5
+  CLC: {fileID: 963194229}
+  IsLybrary: 0
+  isOtherObject: 1
+  OtherObjectEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2140657759}
+        m_TargetAssemblyTypeName: Level1_ControllerZoom, Assembly-CSharp
+        m_MethodName: ActiveTableroUi
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  velocity: 0.2
+--- !u!65 &386060733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386060730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.49092752, y: 0.6322664, z: 0.28155568}
+  m_Center: {x: 0.012074534, y: 0.102855876, z: -0.020625815}
+--- !u!23 &386060734
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386060730}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b98086618df2f4241950a60adff229ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &386060735
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386060730}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!224 &388167825 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5999908940434727133, guid: de1ea3d3d8d19164aac62468d834d559,
@@ -8966,13 +9153,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 963194228}
     - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
+      propertyPath: flowTest
+      value: 
+      objectReference: {fileID: 1161065409}
+    - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
       propertyPath: ButtonBack
       value: 
       objectReference: {fileID: 7967887991091928884}
     - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
       propertyPath: ButtonMove
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 899024305}
     - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
       propertyPath: InitialCameraPosition
       value: 
@@ -14611,6 +14802,11 @@ PrefabInstance:
       propertyPath: Target
       value: 
       objectReference: {fileID: 7967887991091928885}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: flowTest
+      value: 
+      objectReference: {fileID: 1161065409}
     - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
         type: 3}
       propertyPath: IsLybrary
