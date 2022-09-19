@@ -36,6 +36,10 @@ public class CameraInteractiveTouchController : MonoBehaviour
                         actualGameObjectUsing = hit.transform.gameObject;
                         hit.transform.gameObject.GetComponent<InteractiveObjectController>().IsUsing();
                     }
+                    if (hit.transform.tag == "boton")
+                    {
+                        hit.transform.gameObject.GetComponent<ButtonUV>().ActiveUVLight();
+                    }
                 }
             }
         }
