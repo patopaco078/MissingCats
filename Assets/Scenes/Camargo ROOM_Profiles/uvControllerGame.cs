@@ -9,11 +9,8 @@ public class uvControllerGame : MonoBehaviour
     [SerializeField] GameObject lightUV;
     [SerializeField] GameObject normalLight;
 
-    Animator animator;
-
     private void Start()
     {
-        animator = GetComponent<Animator>();
         lightUV.SetActive(false);
     }
 
@@ -25,7 +22,6 @@ public class uvControllerGame : MonoBehaviour
         }
         if (ActiveUV && (lightUV != null && normalLight != null))
         {
-            animator.SetTrigger("active");
             normalLight.SetActive(false);
             lightUV.SetActive(true);
         }
