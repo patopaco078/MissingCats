@@ -6378,6 +6378,7 @@ GameObject:
   - component: {fileID: 1376669753}
   - component: {fileID: 1376669752}
   - component: {fileID: 1376669751}
+  - component: {fileID: 1376669755}
   m_Layer: 0
   m_Name: Button (1)
   m_TagString: boton
@@ -6483,6 +6484,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376669749}
   m_Mesh: {fileID: -5447036705194824928, guid: e850bf6b014bbac48be9a343a53339b9, type: 3}
+--- !u!65 &1376669755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376669749}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0053271023, y: 0.02, z: 0.019999996}
+  m_Center: {x: 0.0073364214, y: 0.000000014901161, z: -0.000000044703484}
 --- !u!1 &1383895322
 GameObject:
   m_ObjectHideFlags: 0
