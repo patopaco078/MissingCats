@@ -330,7 +330,7 @@ void Task()
 
 void Task2()
 {
-   if(codigo.text=="5763")
+   if(codigo.text=="5743")
             {
               luzRoja.SetActive(false);
               luzVerde.SetActive(true);
