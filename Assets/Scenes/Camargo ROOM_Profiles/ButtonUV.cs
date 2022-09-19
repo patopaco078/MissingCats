@@ -14,7 +14,10 @@ public class ButtonUV : MonoBehaviour
 
     public void ActiveUVLight()
     {
-        animator.SetTrigger("pressButton");
-        UV.LightUV();
+        if (UV.haveACard)
+        {
+            animator.SetTrigger("pressButton");
+            UV.LightUV();
+        }
     }
 }
