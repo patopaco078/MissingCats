@@ -5977,7 +5977,7 @@ RectTransform:
   - {fileID: 2060435385}
   - {fileID: 1113091457}
   m_Father: {fileID: 1463376349}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6832,9 +6832,9 @@ RectTransform:
   m_Children:
   - {fileID: 899024305}
   - {fileID: 581765749}
+  - {fileID: 1275921851}
   - {fileID: 388167825}
   - {fileID: 1966166090}
-  - {fileID: 1275921851}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8968,7 +8968,7 @@ PrefabInstance:
     - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
       propertyPath: ButtonBack
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7967887991091928884}
     - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
       propertyPath: ButtonMove
       value: 
@@ -14571,6 +14571,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 192854223}
     m_Modifications:
+    - target: {fileID: 7739552566129881404, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739552566129881404, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 963194230}
+    - target: {fileID: 7739552566129881404, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitUsingObject
+      objectReference: {fileID: 0}
     - target: {fileID: 7739552566442161623, guid: be217a1a3ea919e44be9adb4e5355ce4,
         type: 3}
       propertyPath: m_IsActive
@@ -14581,6 +14596,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: CLC
+      value: 
+      objectReference: {fileID: 963194229}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 963194228}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 7967887991091928885}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: IsLybrary
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: ButtonMove
+      value: 
+      objectReference: {fileID: 899024305}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: isOtherObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: InitialCameraPosition
+      value: 
+      objectReference: {fileID: 604667419}
     - target: {fileID: 7739552566760087846, guid: be217a1a3ea919e44be9adb4e5355ce4,
         type: 3}
       propertyPath: m_RootOrder
@@ -14698,6 +14748,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be217a1a3ea919e44be9adb4e5355ce4, type: 3}
+--- !u!224 &7967887991091928884 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7739552566129881407, guid: be217a1a3ea919e44be9adb4e5355ce4,
+    type: 3}
+  m_PrefabInstance: {fileID: 7967887991091928883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7967887991091928885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7739552567300924960, guid: be217a1a3ea919e44be9adb4e5355ce4,
+    type: 3}
+  m_PrefabInstance: {fileID: 7967887991091928883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8028195468620745448
 Transform:
   m_ObjectHideFlags: 0
