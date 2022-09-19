@@ -7387,6 +7387,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709817906}
     m_Modifications:
+    - target: {fileID: 1435875045, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+      propertyPath: doThis.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435875045, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+      propertyPath: doThis.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435875045, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+      propertyPath: doThis.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 709817907}
+    - target: {fileID: 1435875045, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+      propertyPath: doThis.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435875045, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+      propertyPath: doThis.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: RotateRelog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435875045, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+      propertyPath: doThis.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: Relog_rotate, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435875045, guid: f61bfb916ceb03f4b954f58a3f55ed49, type: 3}
+      propertyPath: doThis.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 681506708152570384, guid: f61bfb916ceb03f4b954f58a3f55ed49,
         type: 3}
       propertyPath: m_LocalPosition.x
