@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class uvControllerGame : MonoBehaviour
 {
-    [SerializeField] private bool haveACard = false;
-    public bool ActiveUV = false;
+    [SerializeField] public bool haveACard = false;
+    private bool ActiveUV = false;
     [SerializeField] GameObject lightUV;
     [SerializeField] GameObject normalLight;
 
