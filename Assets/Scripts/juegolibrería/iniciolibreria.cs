@@ -1,8 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class iniciolibreria : MonoBehaviour
 {
+    [SerializeField] private UnityEvent doThis;
+
+
     // Start is called before the first frame update
     public GameObject imagen;
     private GameObject cambio;
@@ -336,7 +340,8 @@ void Task2()
               luzVerde.SetActive(true);
             condicion2 = true;
             Task();
-            }
+            doThis.Invoke();
+        }
             else{
               luzRoja.SetActive(true);
             }

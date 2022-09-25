@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class uvControllerGame : MonoBehaviour
 {
-    [SerializeField] private bool haveACard = false;
+    [SerializeField] public bool haveACard = false;
+    private bool ActiveUV = false;
     [SerializeField] GameObject lightUV;
     [SerializeField] GameObject normalLight;
 
-    Animator animator;
-
     private void Start()
     {
-        animator = GetComponent<Animator>();
         lightUV.SetActive(false);
     }
 
@@ -22,9 +20,8 @@ public class uvControllerGame : MonoBehaviour
         {
             Debug.Log("¡REVISA LAS LUCES, TANTO LA UV COMO LA NORMAL DE ESTE SCRIPT!");
         }
-        if (haveACard && (lightUV != null && normalLight != null))
+        if (ActiveUV && (lightUV != null && normalLight != null))
         {
-            animator.SetTrigger("active");
             normalLight.SetActive(false);
             lightUV.SetActive(true);
         }
@@ -33,5 +30,13 @@ public class uvControllerGame : MonoBehaviour
     public void HaveACard()
     {
         haveACard = true;
+    }
+
+    public void LightUV()
+    {
+        if (haveACard)
+        {
+            ActiveUV = true;
+        }
     }
 }
