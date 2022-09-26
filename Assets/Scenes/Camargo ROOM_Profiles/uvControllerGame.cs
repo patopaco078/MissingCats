@@ -5,9 +5,11 @@ using UnityEngine;
 public class uvControllerGame : MonoBehaviour
 {
     [SerializeField] public bool haveACard = false;
-    private bool ActiveUV = false;
+    private bool activeUV = false;
     [SerializeField] GameObject lightUV;
     [SerializeField] GameObject normalLight;
+
+    public bool ActiveUV { get => activeUV;}
 
     private void Start()
     {
@@ -25,6 +27,11 @@ public class uvControllerGame : MonoBehaviour
             normalLight.SetActive(false);
             lightUV.SetActive(true);
         }
+        if(!ActiveUV && lightUV.activeSelf)
+        {
+            normalLight.SetActive(true);
+            lightUV.SetActive(false);
+        }
     }
 
     public void HaveACard()
@@ -36,7 +43,15 @@ public class uvControllerGame : MonoBehaviour
     {
         if (haveACard)
         {
-            ActiveUV = true;
+            activeUV = true;
+        }
+    }
+
+    public void DesactiveLightUV()
+    {
+        if (haveACard)
+        {
+            activeUV = false;
         }
     }
 }
