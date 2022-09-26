@@ -35,8 +35,9 @@ public class CameraInteractiveTouchController : MonoBehaviour
                         actualGameObjectUsing = hit.transform.gameObject;
                         hit.transform.gameObject.GetComponent<InteractiveObjectController>().IsUsing();
                     }
-                    if (hit.transform.tag == "boton")
+                    if (hit.transform.tag == "boton" && touchPlayer.phase == TouchPhase.Ended)
                     {
+                        Debug.Log("1");
                         hit.transform.gameObject.GetComponent<ButtonUV>().ActiveUVLight();
                     }
                 }
@@ -46,7 +47,6 @@ public class CameraInteractiveTouchController : MonoBehaviour
 
     public void ExitUsingObject()
     {
-        //VolumeEffectCamera.enabled = false;
         isInteractingObcjet = false;
         actualGameObjectUsing.GetComponent<InteractiveObjectController>().IsNotUsing();
     }

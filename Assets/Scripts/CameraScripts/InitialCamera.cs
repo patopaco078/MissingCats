@@ -17,9 +17,5 @@ public class InitialCamera : MonoBehaviour
             transform.position = Camera.transform.position;
             transform.rotation = Camera.transform.rotation;
         }
-        else
-        {
-            Debug.Log("no");
-        }
     }
 }

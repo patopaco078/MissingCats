@@ -6,6 +6,7 @@ public class ButtonUV : MonoBehaviour
 {
     [SerializeField] uvControllerGame UV;
     Animator animator;
+    private bool attempt = true;
 
     private void Start()
     {
@@ -14,10 +15,18 @@ public class ButtonUV : MonoBehaviour
 
     public void ActiveUVLight()
     {
-        if (UV.haveACard)
+        if (UV.haveACard && !UV.ActiveUV && attempt)
         {
             animator.SetTrigger("pressButton");
             UV.LightUV();
+            attempt = false;
         }
+        else if (UV.haveACard && UV.ActiveUV && attempt)
+        {
+            animator.SetTrigger("desactiveButton");
+            UV.DesactiveLightUV();
+            attempt = false;
+        }
+        attempt = true;
     }
 }
