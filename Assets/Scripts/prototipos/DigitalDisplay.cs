@@ -9,10 +9,12 @@ public class DigitalDisplay : MonoBehaviour
 
     private TMPro.TMP_Text texto;
     private string codeSequence;
+ 
     // Start is called before the first frame update
     void Start()
 
     {
+        
         codeSequence="";
         texto=GetComponent<TMPro.TMP_Text>();
         buttonspreced.ButtonPressed+=AddDigitToCodeSecuence;
@@ -77,10 +79,7 @@ public class DigitalDisplay : MonoBehaviour
         texto.text=codeSequence;
         break;
 
-        case "flecha_retorno":
-         codeSequence="";
-        texto.text=codeSequence;
-        break;
+        
 
 
   }

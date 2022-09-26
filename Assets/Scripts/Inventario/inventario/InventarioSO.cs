@@ -10,7 +10,7 @@ public class InventarioSO : ScriptableObject
     [SerializeField]
     private List<InventarioItemSO> inventarioItems;
     [field: SerializeField]
-    public int Size { get; private set; } = 5;
+    public int Size { get; private set; } 
 
     public event Action<Dictionary<int, InventarioItemSO>> OnInventoryUpdated;
 

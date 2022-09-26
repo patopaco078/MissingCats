@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b640df0d21d01f447b178546be4fc746, type: 3}
   m_Name: InventarioJugador
   m_EditorClassIdentifier: 
-  inventarioItems: []
-  <Size>k__BackingField: 5
+  inventarioItems:
+  - item: {fileID: 0}
+  - item: {fileID: 11400000, guid: 6c6efd9925405954685a891fae261752, type: 2}
+  - item: {fileID: 0}
+  - item: {fileID: 0}
+  - item: {fileID: 0}
+  - item: {fileID: 0}
+  - item: {fileID: 0}
+  - item: {fileID: 0}
+  - item: {fileID: 0}
+  - item: {fileID: 0}
+  <Size>k__BackingField: 10
