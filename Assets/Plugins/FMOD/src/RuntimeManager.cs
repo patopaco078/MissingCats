@@ -1115,6 +1115,8 @@ retry:
             }
         }
 
+        
+
         public static void PlayOneShot(string path, Vector3 position = new Vector3())
         {
             try
@@ -1143,7 +1145,7 @@ retry:
             }
             catch (EventNotFoundException)
             {
-                RuntimeUtils.DebugLogWarning("[FMOD] Event not found: " + eventReference);
+                RuntimeUtils.DebugLogWarning("[FMOD] Event not found: " + eventReference.ToString());
             }
         }
 
