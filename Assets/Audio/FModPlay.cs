@@ -4,22 +4,27 @@ using UnityEngine;
 
 public class FModPlay : MonoBehaviour
 {
+    private FMOD.Studio.EventInstance instance;
+
     [SerializeField] public FMODUnity.EventReference FmodEvent;
 
+    [SerializeField] [Range(0, 3)] int SongStep = 0;
 
-    public void FmodFollowPlay()
+    private void Start()
     {
-        FMODUnity.RuntimeManager.PlayOneShotAttached(FmodEvent, gameObject);
+        SongStep = 0;
+        instance = FMODUnity.RuntimeManager.CreateInstance(FmodEvent);
+        instance.start();
     }
 
-    public void FmodPlay()
+    public void NextSongStep()
     {
-        FMODUnity.RuntimeManager.PlayOneShot(FmodEvent, transform.position);
+        SongStep++;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        instance.setParameterByName("Puzzle counter", SongStep);
     }
 }
