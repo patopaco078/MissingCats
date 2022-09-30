@@ -3,23 +3,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
-using Collision = UnityEngine.Collision;
+using UnityEngine.Events;
+
 
 public class DialogSelector: MonoBehaviour
 {
+    [SerializeField] private UnityEvent doThisWhenActivate;
     public Flowchart flowTest;
+    private string mensaje;
 
-    private void OnCollisionStay(Collision collision)
+    public void DialogBlocksActivation(string blockName)
     {
-        flowTest.ExecuteBlock("Reloj Antiguo");
+        flowTest.ExecuteBlock(blockName);
+        mensaje = blockName;
+        doThisWhenActivate.Invoke();
     }
-/*
-    private void OnTriggerEnter(Collider other)
-    {
-        flowTest.ExecuteBlock("Reloj Antiguo");
-    }
-*/
-    public void TestMethod(string mensaje) {
+    public void TestMethod() {
         Debug.Log(mensaje);
     }
 }
