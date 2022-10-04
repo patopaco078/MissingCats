@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4e5e2e2c-591e-4391-8c90-6b1f7275d5ec}">
+		<property name="name">
+			<value>Puzzle counter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7ec44325-461e-4872-a347-f8337f6112f5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{939cd4ae-96a1-4a62-bc2c-b72933c00592}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{939cd4ae-96a1-4a62-bc2c-b72933c00592}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
