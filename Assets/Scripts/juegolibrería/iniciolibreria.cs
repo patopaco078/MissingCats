@@ -270,38 +270,38 @@ public Button ingresar;
            
         }
 
-           if(hit.transform.name.Equals("locker"))
-        {
-                        if (condicion2 == false)
-                        {
-                            fondo.SetActive(true);
-                        
-                            cambio = text3_4;
-                            retornoContraseña.gameObject.SetActive(true);
-                            condicion = true;
-                            cambio.SetActive(false);
-                            codigo.gameObject.SetActive(true);
-
-                            ingresar.gameObject.SetActive(true);
-                            uno.SetActive(true);
-                            dos.SetActive(true);
-                            tres.SetActive(true);
-                            cuatro.SetActive(true);
-                            cinco.SetActive(true);
-                            seis.SetActive(true);
-                            siete.SetActive(true);
-                            ocho.SetActive(true);
-                            nueve.SetActive(true);
-                            reiniciar.SetActive(true);
-                        }
-      
-           
-        }
+        
 
 
        }
-       
-      } 
+                if (hit.transform.name.Equals("locker"))
+                {
+                    if (condicion2 == false)
+                    {
+                        fondo.SetActive(true);
+
+                        cambio = text3_4;
+                        retornoContraseña.gameObject.SetActive(true);
+                        cambio.SetActive(false);
+                        codigo.gameObject.SetActive(true);
+
+                        ingresar.gameObject.SetActive(true);
+                        uno.SetActive(true);
+                        dos.SetActive(true);
+                        tres.SetActive(true);
+                        cuatro.SetActive(true);
+                        cinco.SetActive(true);
+                        seis.SetActive(true);
+                        siete.SetActive(true);
+                        ocho.SetActive(true);
+                        nueve.SetActive(true);
+                        reiniciar.SetActive(true);
+                    }
+
+
+                }
+
+            } 
     }
     
 }
