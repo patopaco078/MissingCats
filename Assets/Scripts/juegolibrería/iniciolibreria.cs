@@ -58,14 +58,15 @@ public GameObject ocho;
 public GameObject nueve;
 
 
-public Button flecha;
+public Button retornoContraseña;
+    public Button retornoimagen;
 
-public TMPro.TMP_Text codigo;
+    public TMPro.TMP_Text codigo;
 
 public Button ingresar;
     void Awake()
     {
-
+        retornoimagen.gameObject.SetActive(false);
         imagen.SetActive(false);
        text1_1.SetActive(false);
         text1_2.SetActive(false);
@@ -93,9 +94,10 @@ public Button ingresar;
        siete.SetActive(false);
        ocho.SetActive(false);
        nueve.SetActive(false);
-       flecha.gameObject.SetActive(false);
-       flecha.onClick.AddListener(Task);
+        retornoContraseña.gameObject.SetActive(false);
+        retornoContraseña.onClick.AddListener(Task3);
        ingresar.onClick.AddListener(Task2);
+        retornoimagen.onClick.AddListener(Task);
        imagenFlechas.SetActive(false);
        codigo.gameObject.SetActive(false);
      
@@ -138,7 +140,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
            cambio=text3_1;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
         }
@@ -147,7 +149,7 @@ public Button ingresar;
             
             imagen.SetActive(true);
               cambio=text3_4;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
            
@@ -156,7 +158,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text3_3;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
            
@@ -166,7 +168,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text3_2;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
            
@@ -175,7 +177,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text2_2;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
@@ -185,7 +187,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text2_1;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
@@ -196,7 +198,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text2_3;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
@@ -206,7 +208,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text2_4;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
@@ -216,7 +218,7 @@ public Button ingresar;
                     {
                         imagen.SetActive(true);
                         cambio = text2_5;
-                        flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
                         cambio.SetActive(true);
                         condicion = true;
 
@@ -226,7 +228,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text1_1;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
@@ -236,7 +238,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text1_2;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
@@ -246,7 +248,7 @@ public Button ingresar;
         {
             imagen.SetActive(true);
               cambio=text1_3;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
       
@@ -260,7 +262,7 @@ public Button ingresar;
         {
             imagenFlechas.SetActive(true);
                         cambio = text3_4;
-                  flecha.gameObject.SetActive(true);
+                        retornoimagen.gameObject.SetActive(true);
                   condicion=true;
                       cambio.SetActive(false);
            
@@ -273,9 +275,9 @@ public Button ingresar;
                         if (condicion2 == false)
                         {
                             fondo.SetActive(true);
-                            contraseña_texto.SetActive(true);
+                        
                             cambio = text3_4;
-                            flecha.gameObject.SetActive(true);
+                            retornoContraseña.gameObject.SetActive(true);
                             condicion = true;
                             cambio.SetActive(false);
                             codigo.gameObject.SetActive(true);
@@ -308,28 +310,39 @@ void Task()
 {
     imagen.SetActive(false);
     cambio.SetActive(false);
-    flecha.gameObject.SetActive(false);
+        retornoimagen.gameObject.SetActive(false);
     imagenFlechas.SetActive(false);
     condicion=false;
-    contraseña_texto.SetActive(false);
-    fondo.SetActive(false);
-    codigo.gameObject.SetActive(false);
-
-   ingresar.gameObject.SetActive(false);
-   luzRoja.SetActive(false);
-   luzVerde.SetActive(false);
-    uno.SetActive(false);
-       dos.SetActive(false);
-       tres.SetActive(false);
-       cuatro.SetActive(false);
-       cinco.SetActive(false);
-       seis.SetActive(false);
-       siete.SetActive(false);
-       ocho.SetActive(false);
-       nueve.SetActive(false);
-      
-         reiniciar.SetActive(false);
+  
+  
 }
+
+    void Task3()
+    {
+
+
+     
+      
+        condicion = false;
+        contraseña_texto.SetActive(false);
+        fondo.SetActive(false);
+        codigo.gameObject.SetActive(false);
+
+        ingresar.gameObject.SetActive(false);
+        luzRoja.SetActive(false);
+        luzVerde.SetActive(false);
+        uno.SetActive(false);
+        dos.SetActive(false);
+        tres.SetActive(false);
+        cuatro.SetActive(false);
+        cinco.SetActive(false);
+        seis.SetActive(false);
+        siete.SetActive(false);
+        ocho.SetActive(false);
+        nueve.SetActive(false);
+
+        reiniciar.SetActive(false);
+    }
 
 
 void Task2()
