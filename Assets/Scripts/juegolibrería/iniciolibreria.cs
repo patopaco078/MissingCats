@@ -327,6 +327,7 @@ void Task()
         contraseña_texto.SetActive(false);
         fondo.SetActive(false);
         codigo.gameObject.SetActive(false);
+        retornoContraseña.gameObject.SetActive(false);
 
         ingresar.gameObject.SetActive(false);
         luzRoja.SetActive(false);
