@@ -27,7 +27,7 @@ public class numeros3D_Flash : MonoBehaviour
     private Transform transform2;
     private Renderer r;
     public GameObject cambio;
-  
+    public float duracionSegundos;
     int counter = 0;
     // Start is called before the first frame update
     void Start()
@@ -77,7 +77,7 @@ public class numeros3D_Flash : MonoBehaviour
         Renderer re = t2.GetComponent<Renderer>();
         re.material.color = Color.green;
         parpaderoNumeros();
-        yield return new WaitForSeconds(12.5f);
+        yield return new WaitForSeconds(duracionSegundos*5);
         StartCoroutine(condicionFinal());
     }
     public IEnumerator condicionFalse()
@@ -112,13 +112,13 @@ public class numeros3D_Flash : MonoBehaviour
                     Renderer rend = hijo.GetComponent<Renderer>();
 
                     rend.material.color = Color.blue;
-                    yield return new WaitForSeconds(1.2f);
+                    yield return new WaitForSeconds(duracionSegundos/2);
                     rend.material.color = material.color;
                
                 }
 
             }
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(duracionSegundos);
         }
 
        
