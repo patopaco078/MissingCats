@@ -282,7 +282,7 @@ public Button ingresar;
 
                        
                         retornoContraseña.gameObject.SetActive(true);
-                        cambio.SetActive(false);
+                     
                         codigo.gameObject.SetActive(true);
 
                         ingresar.gameObject.SetActive(true);
