@@ -280,7 +280,7 @@ public Button ingresar;
                     {
                         fondo.SetActive(true);
 
-                        cambio = text3_4;
+                       
                         retornoContraseña.gameObject.SetActive(true);
                         cambio.SetActive(false);
                         codigo.gameObject.SetActive(true);
