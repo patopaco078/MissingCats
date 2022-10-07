@@ -463,8 +463,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: 0, y: 0, z: 0}
       EndPos: {x: -1000, y: 0, z: 0}
-      StartWorldPos: {x: 1024, y: 768, z: 0}
-      EndWorldPos: {x: -1536, y: 768, z: 0}
+      StartWorldPos: {x: 1170, y: 540, z: 0}
+      EndWorldPos: {x: -1755, y: 540, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -5010,8 +5010,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: 0, y: 800, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: 1024, y: 2816, z: 0}
-      EndWorldPos: {x: 1024, y: 768.00006, z: 0}
+      StartWorldPos: {x: 1170, y: 2880, z: 0}
+      EndWorldPos: {x: 1170, y: 540.00006, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -6799,8 +6799,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: 900, y: 0, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: 3328, y: 768, z: 0}
-      EndWorldPos: {x: 1024, y: 768, z: 0}
+      StartWorldPos: {x: 3802.5, y: 540, z: 0}
+      EndWorldPos: {x: 1170, y: 540, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -7512,9 +7512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 470e2de3d3765224f87221110a1bd028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  main: {fileID: 0}
-  ajustes: {fileID: 0}
-  niveles: {fileID: 0}
 --- !u!1 &774867434
 GameObject:
   m_ObjectHideFlags: 0
@@ -16892,7 +16889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6efbee7a791fdb48a7381cb31a6c94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowTest: {fileID: 0}
   IsUsingFuntions:
     m_PersistentCalls:
       m_Calls: []

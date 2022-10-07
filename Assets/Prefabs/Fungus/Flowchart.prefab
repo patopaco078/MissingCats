@@ -172,8 +172,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 7906669685788017201}
-  selectedCommands: []
+  - {fileID: 1508978350077607452}
+  selectedCommands:
+  - {fileID: 1508978350077607448}
   variables:
   - {fileID: 7906669685788017236}
   - {fileID: 3616122343145366833}
@@ -255,7 +256,7 @@ MonoBehaviour:
   itemId: 1
   indentLevel: 0
   storyText: "Esta es mi \xFAltima prueba antes de que me empicen a dar los casos
-    de verdad,es momento de mostrarles de lo que soy capaz.{w=0.5} \n\n{i}Pulsa cualquier
+    de verdad,es momento de mostrarles de lo que soy capaz.{w=0.5} \n{i}Pulsa cualquier
     parte de la {b}pantalla{/b} para avanzar en los dialogos.{/i}"
   description: 
   character: {fileID: 0}
@@ -2937,7 +2938,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 0.8117647, g: 0.6959629, b: 0.21960782, a: 1}
   useCustomTint: 1
-  itemId: 110
+  itemId: 160
   blockName: Tarjeta
   description: "Dialogos del Boton UV seg\xFAn si tiene o no la tarjeta."
   eventHandler: {fileID: 0}
@@ -3785,7 +3786,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 0.7156799, g: 0.5534591, b: 0.8301887, a: 1}
   useCustomTint: 1
-  itemId: 97
+  itemId: 161
   blockName: Apagar UV
   description: Dialogos del switch apagado
   eventHandler: {fileID: 0}

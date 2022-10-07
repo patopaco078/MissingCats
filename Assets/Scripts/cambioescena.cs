@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class cambioescena : MonoBehaviour
 {
 
-    public RectTransform main, ajustes, niveles;
+    //public RectTransform main, ajustes, niveles;
 
     // Start is called before the first frame update
     
