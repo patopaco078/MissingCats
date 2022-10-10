@@ -8063,7 +8063,6 @@ GameObject:
   - component: {fileID: 7739552567855138587}
   - component: {fileID: 7739552567855138586}
   - component: {fileID: 7739552567855138789}
-  - component: {fileID: 7739552567855138791}
   m_Layer: 0
   m_Name: Box101-3
   m_TagString: libro
@@ -8149,24 +8148,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.025914473, y: 0.1408772, z: 0.21495831}
   m_Center: {x: 0.00000035762787, y: 0.00000067427766, z: 0.000000029802322}
---- !u!114 &7739552567855138791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7739552567855138785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cd4bc197a2e58f4da2dad59aa18940e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookingAtObject: 0
-  flashingIn: 1
-  stratedflashing: 0
-  redCol: 0
-  greenCol: 0
-  blueCol: 0
 --- !u!1 &7739552567862450193
 GameObject:
   m_ObjectHideFlags: 0
