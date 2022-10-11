@@ -172,9 +172,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1508978350077607452}
+  - {fileID: 7906669685788017192}
   selectedCommands:
-  - {fileID: 1508978350077607448}
+  - {fileID: 7906669685788017197}
   variables:
   - {fileID: 7906669685788017236}
   - {fileID: 3616122343145366833}
@@ -255,8 +255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Esta es mi \xFAltima prueba antes de que me empicen a dar los casos
-    de verdad,es momento de mostrarles de lo que soy capaz.{w=0.5} \n{i}Pulsa cualquier
+  storyText: "Esta es mi \xFAltima prueba para optener mi trabajo como detective,
+    es el momento de mostrarles de lo que soy capaz.{w=0.5} \n{i}Pulsa cualquier
     parte de la {b}pantalla{/b} para avanzar en los dialogos.{/i}"
   description: 
   character: {fileID: 0}
@@ -614,8 +614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "{i}Revisa la habitaci\xF3n desde diferentes angulos, pulando {b}los
-    laterales grises de la pantalla{/b}, para buscar las 3 pistas que se esconden
+  storyText: "{i}Revisa la habitaci\xF3n desde diferentes \xE1ngulos, pulando {b}los
+    laterales grises{/b} de la pantalla, para buscar las 3 pistas que se esconden
     en la habiaci\xF3n{/i}"
   description: 
   character: {fileID: 0}
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: "{i}Pulsa las {b}manecillas{/b} del reloj para cambiarlas de posici\xF3n{/i}"
+  storyText: "{i}Usa los {b}bot\xF3nes{/b} para mover las manecillas del reloj{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1312,7 +1312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: '{i}Toma el rollo de papel para revisar su interior{/i}'
+  storyText: "{i}Toma el rollo de papel para revisar su interior, podr\xE1s leer
+    su contendio cada vez que pulses su casilla en el invetario -ubicado en el borde
+    superior de la pantalla.-{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1361,7 +1363,8 @@ MonoBehaviour:
   itemId: 63
   indentLevel: 0
   storyText: "\xA1\xA1Ohhh!!{w=0.5} \xBFPor qu\xE9 algu\xEDen esconder\xEDa un pedazo
-    de papel dentro de una antig\xFCedad c\xF3mo est\xE1s? "
+    de papel dentro de una antig\xFCedad c\xF3mo est\xE1s? \nQuizas en su interior
+    haya pistas para resolver alg\xFAn otro de los puzzles."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1957,8 +1960,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: "{i}Toca la tarjeta para poder recogerla y luego busca en que parte
-    del cuarto podr\xEDas usarla{/i}"
+  storyText: "{i}Toca la tarjeta para poder recogerla, podr\xE1s acceder a ella pulsando
+    la casilla del inventario -ubicado en el borde superior de la pantalla- y luego
+    buscar en que parte del cuarto podr\xEDasdarle uso.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2114,8 +2118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: "Vamos a ver que es lo que esconde el interior...{w=0.5} \n{i}En futuras
-    builds poddr\xE1s revisar el interior de la {b}caja fuerte.{/b}{/i}"
+  storyText: "Parece que he compltado con exito las tres pruebas...{w=0.5} \n{i}En
+    futuras versiones podr\xE1s revisar el interior de la {b}caja fuerte.{/b}{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
