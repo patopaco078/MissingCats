@@ -17,7 +17,7 @@ public class buttonspreced : MonoBehaviour
     }
 
     // Update is called once per frame
-   void buttonClicked()
+   public void buttonClicked()
    {
     ButtonPressed(buttonName);
    }
