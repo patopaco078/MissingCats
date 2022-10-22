@@ -10,7 +10,7 @@ public class PuzzleCounter : MonoBehaviour
 {
 
     public TextMeshProUGUI puzzleCounter;
-
+    [SerializeField] private string Nivel2;
     [SerializeField] private string Menu;
     [SerializeField] private UnityEvent doThis;
 
@@ -57,6 +57,7 @@ public class PuzzleCounter : MonoBehaviour
     IEnumerator LVLDone(int secs)
     {
         yield return new WaitForSeconds(secs);
-        SceneManager.LoadScene(Menu);
+        //SceneManager.LoadScene(Menu);
+        SceneManager.LoadScene(Nivel2);
     }
 }
