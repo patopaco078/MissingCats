@@ -24,63 +24,73 @@ void Awake()
 }
     void Start()
     {
-      PossibleRotation=correctRotation.Length;
-      
+        PossibleRotation = correctRotation.Length;
+
         int rand = Random.Range(0, rotations.Length);
-      
-  transformar.eulerAngles = new Vector3(0,0,rotations[rand]);
-  if(PossibleRotation>1)
-  {
-   if(transformar.transform.eulerAngles.z==correctRotation[0] || transformar.transform.eulerAngles.z==correctRotation[1] || transformar.transform.eulerAngles.z == correctRotation[2])
-      {
-        isPlaced=true;
-        gameManager1.CorrectMove();
-      }
-      
-      
-  }
-  else{
-        if(transformar.transform.eulerAngles.z==correctRotation[0])
-      {
-        isPlaced=true;
-          gameManager1.CorrectMove();
-      }
-      }
+
+        transformar.eulerAngles = new Vector3(0, 90 , rotations[rand]);
+        if (correctRotation.Length != 0)
+        {
+            if (PossibleRotation > 1)
+            {
+                if (transformar.transform.eulerAngles.z == correctRotation[0] || transformar.transform.eulerAngles.z == correctRotation[1] || transformar.transform.eulerAngles.z == correctRotation[2])
+                {
+                    isPlaced = true;
+                    gameManager1.CorrectMove();
+                }
+
+
+
+                else
+                {
+                    if (transformar.transform.eulerAngles.z == correctRotation[0])
+                    {
+                        isPlaced = true;
+                        gameManager1.CorrectMove();
+                    }
+                }
+            }
+        }
     }
 
-    
 
-    
- 
- public void Task2()
- { 
-   transformar.Rotate(new Vector3(0,0,90));
-        Debug.Log(transformar.transform.eulerAngles.z);
-  
-      if(PossibleRotation>1)
-  {
-      if(transformar.transform.eulerAngles.z==correctRotation[0] || transformar.transform.eulerAngles.z==correctRotation[1] || transformar.transform.eulerAngles.z == correctRotation[2] && isPlaced==false)
-      {
-        isPlaced=true;
-          gameManager1.CorrectMove();
-      }
-      else if(isPlaced==true){
 
-isPlaced=false;
-gameManager1.WrongMove();
-      }
-    } else
+
+
+    public void Task2()
     {
-    if(transformar.transform.eulerAngles.z==correctRotation[0] && isPlaced==false)
-      {
-        isPlaced=true;
-        gameManager1.CorrectMove();
-      }
-      else if(isPlaced==true){
+        transformar.Rotate(new Vector3(0, 0, 90));
+        Debug.Log(transformar.transform.eulerAngles.z);
+        if (correctRotation.Length != 0)
+        {
+            if (PossibleRotation > 1)
+            {
+                if (transformar.transform.eulerAngles.z == correctRotation[0] || transformar.transform.eulerAngles.z == correctRotation[1] || transformar.transform.eulerAngles.z == correctRotation[2] && isPlaced == false)
+                {
+                    isPlaced = true;
+                    gameManager1.CorrectMove();
+                }
+                else if (isPlaced == true)
+                {
 
-isPlaced=false;
-gameManager1.WrongMove();
-      }
+                    isPlaced = false;
+                    gameManager1.WrongMove();
+                }
+            }
+            else
+            {
+                if (transformar.transform.eulerAngles.z == correctRotation[0] && isPlaced == false)
+                {
+                    isPlaced = true;
+                    gameManager1.CorrectMove();
+                }
+                else if (isPlaced == true)
+                {
+
+                    isPlaced = false;
+                    gameManager1.WrongMove();
+                }
+            }
+        }
     }
- }
 }
