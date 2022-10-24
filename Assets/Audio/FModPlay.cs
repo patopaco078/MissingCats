@@ -27,4 +27,9 @@ public class FModPlay : MonoBehaviour
     {
         instance.setParameterByName("Puzzle counter", SongStep);
     }
+
+    private void OnDestroy()
+    {
+        instance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
 }
