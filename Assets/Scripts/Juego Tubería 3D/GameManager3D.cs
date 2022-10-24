@@ -9,8 +9,6 @@ public class GameManager3D : MonoBehaviour
     public GameObject pipesHolder;
     public GameObject[] Pipes;
 
-    public ParticleSystem Ganaste;
-
     pipesScript3D pipeS;
 
     bool condicion;
@@ -23,7 +21,7 @@ public class GameManager3D : MonoBehaviour
     void Start()
     {
         //button.onClick.AddListener(TaskP);
-        Ganaste.Pause();
+   
         TotalPipes=pipesHolder.transform.childCount;
         Pipes= new GameObject[TotalPipes];
 
@@ -56,14 +54,19 @@ public class GameManager3D : MonoBehaviour
         }
     }
 
+    void Ganar()
+    {
+
+    }
+
     // Update is called once per frame
   public  void CorrectMove()
     {
         CorrectedPipes+=1;
         if(CorrectedPipes==TotalPipes)
         {
-            Ganaste.Play();
-            condicion=true;
+            Ganar();
+            condicion =true;
         }
     }
 
