@@ -18,6 +18,7 @@ public class DigitalDisplay : MonoBehaviour
         codeSequence="";
         texto=GetComponent<TMPro.TMP_Text>();
         buttonspreced.ButtonPressed+=AddDigitToCodeSecuence;
+
     }
 
     // Update is called once per frame

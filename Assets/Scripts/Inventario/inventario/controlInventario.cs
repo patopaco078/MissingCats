@@ -9,8 +9,7 @@ public class controlInventario : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField]
     private inventariopagina inventariopagina;
-    [SerializeField]
-    private InventarioSO inventarioData;
+    public InventarioSO inventarioData;
 
 
     List<InventarioItemSO> initialItems = new List<InventarioItemSO>();

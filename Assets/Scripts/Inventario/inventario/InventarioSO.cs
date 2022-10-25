@@ -7,8 +7,7 @@ using System;
 [CreateAssetMenu]
 public class InventarioSO : ScriptableObject
 {
-    [SerializeField]
-    private List<InventarioItemSO> inventarioItems;
+  public List<InventarioItemSO> inventarioItems;
     [field: SerializeField]
     public int Size { get; private set; } 
 
