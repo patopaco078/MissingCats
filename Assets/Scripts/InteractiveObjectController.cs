@@ -16,6 +16,7 @@ public class InteractiveObjectController : MonoBehaviour
     [SerializeField] GameObject InitialCameraPosition;
     [SerializeField] Transform ZoomTarget;
     [SerializeField] RectTransform ButtonMove;
+    [SerializeField] float ButtonYMove;
     [SerializeField] RectTransform ButtonBack;
 
     [SerializeField] Transform Target;
@@ -50,10 +51,9 @@ public class InteractiveObjectController : MonoBehaviour
         Camera.DORotate(ZoomTarget.rotation.eulerAngles, VelocityToMoving);
         gameObject.GetComponent<BoxCollider>().enabled = false;
 
-        if (IsLybrary)
+        /*if (IsLybrary)
         {
-
-        }
+        }*/
         if (IsLybrary && CLC != null)
         {
             CLC.DownButton();
@@ -72,7 +72,7 @@ public class InteractiveObjectController : MonoBehaviour
         IsNotUsingFuntions.Invoke();
         Camera.DOMove(InitialCameraPosition.transform.position, VelocityToMoving);
         Camera.DORotate(InitialCameraPosition.transform.rotation.eulerAngles, VelocityToMoving);
-        ButtonMove.transform.DOMoveY(375f, VelocityToMoving);
+        ButtonMove.transform.DOMoveY(ButtonYMove, VelocityToMoving);
         ButtonBack.DOMoveY(1300, VelocityToMoving);
         
         StartCoroutine(CanMovePosition());
