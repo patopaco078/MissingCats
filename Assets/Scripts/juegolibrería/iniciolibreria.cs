@@ -353,7 +353,7 @@ void Task2()
               luzRoja.SetActive(false);
               luzVerde.SetActive(true);
             condicion2 = true;
-            Task();
+            Task3();
             doThis.Invoke();
         }
             else{
