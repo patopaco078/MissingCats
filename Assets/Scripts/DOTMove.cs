@@ -22,14 +22,14 @@ public class DOTMove : MonoBehaviour
         {
             //Debug.Log(props0.Length);
             //Debug.Log(i);
-            props0[i].DOLocalMove(new Vector3(x, y, z), time);
+            props0[i].DOMove(new Vector3(x, y, z), time);
         }
     }
     public void Prop0Down()
     {
         for (int i = 0; i < props0.Length -1; i++)
         {
-            props0[i].DOLocalMove(new Vector3(x, 0, z), time);
+            props0[i].DOMove(new Vector3(x, 0, z), time);
         }
     }
 
@@ -37,28 +37,28 @@ public class DOTMove : MonoBehaviour
     {
         for (int i = 0; i < props1.Length -1; i++)
         {
-            props1[i].DOLocalMove(new Vector3(x, y, z), time);
+            props1[i].DOMove(new Vector3(x, y, z), time);
         }
     }
     public void Prop1Down()
     {
         for (int i = 0; i < props1.Length -1; i++)
         {
-            props1[i].DOLocalMove(new Vector3(x, 0, z), time);
+            props1[i].DOMove(new Vector3(x, 0, z), time);
         }
     }
     public void Prop2Up()
     {
         for (int i = 0; i < props2.Length - 1; i++)
         {
-            props2[i].DOLocalMove(new Vector3(x, y, z), time);
+            props2[i].DOMove(new Vector3(x, y, z), time);
         }
     }
     public void Prop2Down()
     {
         for (int i = 0; i < props2.Length - 1; i++)
         {
-            props2[i].DOLocalMove(new Vector3(x, 0, z), time);
+            props2[i].DOMove(new Vector3(x, 0, z), time);
         }
     }
 
@@ -66,14 +66,14 @@ public class DOTMove : MonoBehaviour
     {
         for (int i = 0; i < props3.Length - 1; i++)
         {
-            props3[i].DOLocalMove(new Vector3(x, y, z), time);
+            props3[i].DOMove(new Vector3(x, y, z), time);
         }
     }
     public void Prop3Down()
     {
         for (int i = 0; i < props3.Length - 1; i++)
         {
-            props3[i].DOLocalMove(new Vector3(x, 0, z), time);
+            props3[i].DOMove(new Vector3(x, 0, z), time);
         }
     }
 }
