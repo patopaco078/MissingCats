@@ -463,8 +463,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: 0, y: 0, z: 0}
       EndPos: {x: -1000, y: 0, z: 0}
-      StartWorldPos: {x: 511.50003, y: 399.5, z: 0}
-      EndWorldPos: {x: -767.24994, y: 399.5, z: 0}
+      StartWorldPos: {x: 1170, y: 540, z: 0}
+      EndWorldPos: {x: -1755, y: 540, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -2493,7 +2493,7 @@ GameObject:
   - component: {fileID: 241707727}
   - component: {fileID: 241707726}
   m_Layer: 5
-  m_Name: nueva partida
+  m_Name: niveles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2508,7 +2508,7 @@ RectTransform:
   m_GameObject: {fileID: 241707724}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4488225, y: 1.6558161, z: 1.6558161}
+  m_LocalScale: {x: 1.28, y: 1.48, z: 1.48}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 316304001}
@@ -2517,7 +2517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -262.16998, y: 20}
+  m_AnchoredPosition: {x: -262.16998, y: -34}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241707726
@@ -3222,7 +3222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: nueva partida
+  m_text: niveles
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bae42b29e56f0674ab8272a3adb1d6a8, type: 2}
   m_sharedMaterial: {fileID: -3513988411096637131, guid: bae42b29e56f0674ab8272a3adb1d6a8,
@@ -4321,7 +4321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: continuar
+  m_text: nueva partida
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bae42b29e56f0674ab8272a3adb1d6a8, type: 2}
   m_sharedMaterial: {fileID: -3513988411096637131, guid: bae42b29e56f0674ab8272a3adb1d6a8,
@@ -14984,7 +14984,7 @@ GameObject:
   - component: {fileID: 1963463089}
   - component: {fileID: 1963463088}
   m_Layer: 5
-  m_Name: continuar
+  m_Name: nueva partida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14999,7 +14999,7 @@ RectTransform:
   m_GameObject: {fileID: 1963463086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2995089, y: 1.48517, z: 1.48517}
+  m_LocalScale: {x: 1.46, y: 1.6, z: 1.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 388806040}
@@ -15008,7 +15008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -263.81, y: -36.999996}
+  m_AnchoredPosition: {x: -263.81, y: 26}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963463088
