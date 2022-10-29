@@ -109,7 +109,7 @@ public class Computadorclave : MonoBehaviour
 
 
                 }
-                if (hit.transform.name.Equals("computador"))
+                if (hit.transform.name.Equals("computer"))
                 {
                     if (condicion2 == false)
                     {

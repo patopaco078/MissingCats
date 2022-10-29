@@ -7,10 +7,7 @@ public class abrirpuertaconllave : MonoBehaviour
     [SerializeField]
     private controlInventario inventario;
     // Start is called before the first frame update
-    void Start()
-    {
 
-    }
 
     // Update is called once per frame
     void Update()
@@ -31,9 +28,17 @@ public class abrirpuertaconllave : MonoBehaviour
                         {
                             if (inventario.inventarioData.inventarioItems[i].item.Name == "Llave")
                             {
+                                inventario.inventarioData.inventarioItems.Remove(inventario.inventarioData.inventarioItems[i]);
+
                                 this.GetComponent<Animator>().Play("Abrir");
+                            
+                                     
                                 break;
                             }
+                               
+                               
+                            }
+                           
                         }
                         
                     }
@@ -43,4 +48,4 @@ public class abrirpuertaconllave : MonoBehaviour
             }
         }
     }
-}
+

@@ -8,7 +8,7 @@ public class controlInventario : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
-    private inventariopagina inventariopagina;
+    public inventariopagina inventariopagina;
     public InventarioSO inventarioData;
 
 
@@ -24,7 +24,7 @@ public class controlInventario : MonoBehaviour
         PrepareInventoryData();
     }
 
-    private void PrepareInventoryData()
+    public void PrepareInventoryData()
     {
         
         inventarioData.Inicialaze();
@@ -38,7 +38,7 @@ public class controlInventario : MonoBehaviour
         }
     }
 
-    private void UpDateInventoryUI(Dictionary<int, InventarioItemSO> obj)
+   public void UpDateInventoryUI(Dictionary<int, InventarioItemSO> obj)
     {
         inventariopagina.ResetAllItems();
 

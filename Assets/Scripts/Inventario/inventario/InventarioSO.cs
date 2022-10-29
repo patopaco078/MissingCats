@@ -38,6 +38,23 @@ public class InventarioSO : ScriptableObject
             }
         }
 
+        
+
+    }
+    public void removeItem(int numero)
+    {
+        for (int i = 0; i < inventarioItems.Count; i++)
+        {
+            if (i == numero)
+            {
+                inventarioItems[i] = new InventarioItemSO
+                {
+                    item = null
+
+                };
+                return;
+            }
+        }
     }
 
     public Dictionary<int, InventarioItemSO> GetCurrentInventoryState()
