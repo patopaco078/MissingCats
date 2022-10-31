@@ -7,8 +7,7 @@ using System;
 [CreateAssetMenu]
 public class InventarioSO : ScriptableObject
 {
-    [SerializeField]
-    private List<InventarioItemSO> inventarioItems;
+  public List<InventarioItemSO> inventarioItems;
     [field: SerializeField]
     public int Size { get; private set; } 
 
@@ -39,6 +38,23 @@ public class InventarioSO : ScriptableObject
             }
         }
 
+        
+
+    }
+    public void removeItem(int numero)
+    {
+        for (int i = 0; i < inventarioItems.Count; i++)
+        {
+            if (i == numero)
+            {
+                inventarioItems[i] = new InventarioItemSO
+                {
+                    item = null
+
+                };
+                return;
+            }
+        }
     }
 
     public Dictionary<int, InventarioItemSO> GetCurrentInventoryState()
