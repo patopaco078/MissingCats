@@ -20,7 +20,7 @@ public class pipesScript3D : MonoBehaviour
 void Awake()
 {
   transformar=GetComponent<Transform>();
- gameManager1=GameObject.Find("GameManager").GetComponent<GameManager3D>();
+ gameManager1=GameObject.Find("GameManagercables").GetComponent<GameManager3D>();
 }
     void Start()
     {
