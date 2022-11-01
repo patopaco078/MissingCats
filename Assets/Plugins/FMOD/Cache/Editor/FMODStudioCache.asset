@@ -78,6 +78,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-7502665253399593648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicVol
+  m_EditorClassIdentifier: 
+  Name: MusicVol
+  StudioPath: parameter:/MusicVol
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3916499930
+    data2: 2619746743
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7253421046164851560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,7 +282,9 @@ MonoBehaviour:
   - {fileID: 1855671136957669985}
   - {fileID: 3083378850241591661}
   - {fileID: 20099545603258924}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: 9080816163258698383}
+  - {fileID: -7502665253399593648}
   MasterBanks:
   - {fileID: -6596038603880562486}
   StringsBanks:
@@ -495,7 +521,7 @@ MonoBehaviour:
   lastModified: 638029110021089988
   FileSizes:
   - Name: 
-    Value: 1460
+    Value: 1642
   Exists: 1
 --- !u!114 &5657649790055364292
 MonoBehaviour:
@@ -673,3 +699,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 39544
+--- !u!114 &9080816163258698383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Vol
+  m_EditorClassIdentifier: 
+  Name: SFX_Vol
+  StudioPath: parameter:/SFX_Vol
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3210097963
+    data2: 1779114691
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
