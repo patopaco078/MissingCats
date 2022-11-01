@@ -2,12 +2,16 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 public class GameManager3D : MonoBehaviour
 {
     // Start is called before the first frame update
 
     public GameObject pipesHolder;
     public GameObject[] Pipes;
+
+    [SerializeField] private UnityEvent doThis;
+
 
     pipesScript3D pipeS;
 
@@ -56,7 +60,7 @@ public class GameManager3D : MonoBehaviour
 
     void Ganar()
     {
-
+        doThis.Invoke();
     }
 
     // Update is called once per frame
