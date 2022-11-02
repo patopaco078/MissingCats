@@ -27,16 +27,21 @@ public class numeros3D_Flash : MonoBehaviour
     private Transform transform2;
     private Renderer r;
     public GameObject cambio;
+    public GameObject botonprueba;
     public float duracionSegundos;
     int counter = 0;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        RestarTheGame();
-        transform = botones[0].transform;
+        transform = botonprueba.transform;
         transform2 = transform.GetChild(0);
         r = transform2.GetComponent<Renderer>();
         material = r.material;
+    }
+    void Start()
+    {
+        RestarTheGame();
+        
         numerosLetra = clave.ToString();
         listaNumeros = numerosLetra.ToArray<char>();
      
