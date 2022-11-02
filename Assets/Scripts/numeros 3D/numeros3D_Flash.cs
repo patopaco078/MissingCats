@@ -76,6 +76,47 @@ public class numeros3D_Flash : MonoBehaviour
         Transform t2 = t.GetChild(0);
         Renderer re = t2.GetComponent<Renderer>();
         re.material.color = Color.green;
+        Transform trans1 = botones[0].transform;
+        Transform hijo1 = trans1.GetChild(0);
+        Renderer rend1 = hijo1.GetComponent<Renderer>();
+        rend1.material.color = material.color;
+        Transform trans2 = botones[1].transform;
+        Transform hijo2 = trans2.GetChild(0);
+        Renderer rend2 = hijo2.GetComponent<Renderer>();
+        rend2.material.color = material.color;
+        Transform trans3 = botones[2].transform;
+        Transform hijo3 = trans3.GetChild(0);
+        Renderer rend3 = hijo3.GetComponent<Renderer>();
+        rend3.material.color = material.color;
+        Transform trans4 = botones[3].transform;
+        Transform hijo4 = trans4.GetChild(0);
+        Renderer rend4 = hijo4.GetComponent<Renderer>();
+        rend4.material.color = material.color;
+        Transform trans5 = botones[4].transform;
+        Transform hijo5 = trans5.GetChild(0);
+        Renderer rend5 = hijo5.GetComponent<Renderer>();
+        rend5.material.color = material.color;
+        Transform trans6 = botones[5].transform;
+        Transform hijo6 = trans6.GetChild(0);
+        Renderer rend6 = hijo6.GetComponent<Renderer>();
+        rend6.material.color = material.color;
+        Transform trans7 = botones[6].transform;
+        Transform hijo7 = trans7.GetChild(0);
+        Renderer rend7 = hijo7.GetComponent<Renderer>();
+        rend7.material.color = material.color;
+        Transform trans8 = botones[7].transform;
+        Transform hijo8 = trans8.GetChild(0);
+        Renderer rend8 = hijo8.GetComponent<Renderer>();
+        rend8.material.color = material.color;
+        Transform trans9 = botones[8].transform;
+        Transform hijo9 = trans9.GetChild(0);
+        Renderer rend9 = hijo9.GetComponent<Renderer>();
+        rend9.material.color = material.color;
+        Transform trans10 = botones[9].transform;
+        Transform hijo10 = trans10.GetChild(0);
+        Renderer rend10 = hijo10.GetComponent<Renderer>();
+        rend10.material.color = material.color;
+
         parpaderoNumeros();
         yield return new WaitForSeconds(duracionSegundos*5);
         StartCoroutine(condicionFinal());
@@ -112,8 +153,7 @@ public class numeros3D_Flash : MonoBehaviour
                     Renderer rend = hijo.GetComponent<Renderer>();
 
                     rend.material.color = Color.blue;
-                    yield return new WaitForSeconds(duracionSegundos/2);
-                    rend.material.color = material.color;
+                   
                
                 }
 
