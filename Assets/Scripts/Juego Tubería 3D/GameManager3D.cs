@@ -70,7 +70,7 @@ public class GameManager3D : MonoBehaviour
         if(CorrectedPipes==TotalPipes)
         {
             Ganar();
-            condicion =true;
+            condicion = true;
         }
     }
 
