@@ -64,6 +64,8 @@ public Button retornoContraseña;
     public TMPro.TMP_Text codigo;
 
 public Button ingresar;
+
+    public Image marco;
     void Awake()
     {
         retornoimagen.gameObject.SetActive(false);
@@ -107,6 +109,8 @@ public Button ingresar;
        luzVerde.SetActive(false);
        luzRoja.SetActive(false);
        reiniciar.SetActive(false);
+
+        marco.gameObject.SetActive(false);
       
     }
     void Start()
@@ -143,7 +147,11 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-        }
+                        Color colorN = new Color(1.0f, 0.64f, 0.0f);
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = colorN;
+                    }
         if(hit.transform.name.Equals("Box102-3"))
         {
             
@@ -152,15 +160,23 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-           
-        }
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.blue;
+
+
+
+                    }
         if(hit.transform.name.Equals("Box103-3"))
         {
             imagen.SetActive(true);
               cambio=text3_3;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
-           condicion=true;
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.yellow;
+                        condicion =true;
            
         }
         
@@ -171,8 +187,11 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-           
-        }
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.red;
+
+                    }
         if(hit.transform.name.Equals("Box101-2"))
         {
             imagen.SetActive(true);
@@ -180,8 +199,12 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-      
-        }
+                        Color colorN = new Color(1.0f, 0.64f, 0.0f);
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = colorN;
+
+                    }
        
         if(hit.transform.name.Equals("Box102-2"))
         {
@@ -190,9 +213,12 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-      
-           
-        }
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.blue;
+
+
+                    }
        
         if(hit.transform.name.Equals("Box103-2"))
         {
@@ -201,9 +227,12 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-      
-           
-        }
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.yellow;
+
+
+                    }
         if(hit.transform.name.Equals("Box104-2"))
         {
             imagen.SetActive(true);
@@ -211,9 +240,12 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-      
-           
-        }
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.red;
+
+
+                    }
                  if (hit.transform.name.Equals("Box105-2"))
                     {
                         imagen.SetActive(true);
@@ -221,6 +253,9 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
                         cambio.SetActive(true);
                         condicion = true;
+                        marco.gameObject.SetActive(true);
+                        Color morado = new Color(178, 0, 255);
+                        marco.color = morado;
 
 
                     }
@@ -231,9 +266,13 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-      
-           
-        }
+                        Color colorN = new Color(1.0f, 0.64f, 0.0f);
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = colorN;
+
+
+                    }
          if(hit.transform.name.Equals("Box102-1"))
         {
             imagen.SetActive(true);
@@ -241,9 +280,12 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-      
-           
-        }
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.blue;
+
+
+                    }
          if(hit.transform.name.Equals("Box103-1"))
         {
             imagen.SetActive(true);
@@ -251,9 +293,12 @@ public Button ingresar;
                         retornoimagen.gameObject.SetActive(true);
            cambio.SetActive(true);
            condicion=true;
-      
-           
-        }
+                        marco.gameObject.SetActive(true);
+
+                        marco.color = Color.yellow;
+
+
+                    }
         
         
          
@@ -313,6 +358,7 @@ void Task()
         retornoimagen.gameObject.SetActive(false);
     imagenFlechas.SetActive(false);
     condicion=false;
+        marco.gameObject.SetActive(false);
   
   
 }

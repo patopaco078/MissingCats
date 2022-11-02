@@ -20,7 +20,6 @@ GameObject:
   - component: {fileID: 1508978350077607447}
   - component: {fileID: 1508978350077607443}
   - component: {fileID: 1508978350077607442}
-  - component: {fileID: 1508978350077607437}
   - component: {fileID: 1508978350077607435}
   - component: {fileID: 1508978350077607433}
   - component: {fileID: 1508978350077607432}
@@ -32,12 +31,9 @@ GameObject:
   - component: {fileID: 1391354937026080597}
   - component: {fileID: 416026319395899399}
   - component: {fileID: 1173100513131272013}
-  - component: {fileID: 2744376551849496439}
   - component: {fileID: 7906669685788017110}
   - component: {fileID: 7906669685788017111}
   - component: {fileID: 7906669685788017140}
-  - component: {fileID: 7906669685788017141}
-  - component: {fileID: 7906669685788017142}
   - component: {fileID: 7906669685788017182}
   - component: {fileID: 7906669685788017183}
   - component: {fileID: 7906669685788017168}
@@ -61,7 +57,6 @@ GameObject:
   - component: {fileID: 7906669685788017189}
   - component: {fileID: 7906669685788017191}
   - component: {fileID: 7906669685788017209}
-  - component: {fileID: 7906669685788017211}
   - component: {fileID: 7906669685788017212}
   - component: {fileID: 7906669685788017214}
   - component: {fileID: 7906669685788017215}
@@ -74,7 +69,6 @@ GameObject:
   - component: {fileID: 7906669685788017225}
   - component: {fileID: 7906669685788017226}
   - component: {fileID: 7906669685788017227}
-  - component: {fileID: 7906669685788017228}
   - component: {fileID: 7906669685788017236}
   - component: {fileID: 7906669685788017237}
   - component: {fileID: 7906669685788017238}
@@ -99,12 +93,8 @@ GameObject:
   - component: {fileID: 4055671226630540963}
   - component: {fileID: 4055671226630540964}
   - component: {fileID: 4055671226630540965}
-  - component: {fileID: 4055671226630540980}
-  - component: {fileID: 4055671226630540981}
   - component: {fileID: 4055671226630540982}
-  - component: {fileID: 4055671226630540983}
   - component: {fileID: 4055671226630541000}
-  - component: {fileID: 4055671226630541001}
   - component: {fileID: 4055671226630541003}
   - component: {fileID: -7179016657913044671}
   - component: {fileID: 6897257990633594607}
@@ -131,14 +121,22 @@ GameObject:
   - component: {fileID: 2567432250856518436}
   - component: {fileID: 8656882328191327143}
   - component: {fileID: 7504452678110206990}
-  - component: {fileID: 6584325870303949755}
-  - component: {fileID: 6865633260827790931}
   - component: {fileID: 295383294825505620}
   - component: {fileID: 6937076016253394816}
   - component: {fileID: 2995862172390409842}
   - component: {fileID: 6948026181525217772}
   - component: {fileID: 9131776890487605310}
   - component: {fileID: 2825331828916557199}
+  - component: {fileID: 8003862285563072290}
+  - component: {fileID: 7777208336502931902}
+  - component: {fileID: 9090508322313847354}
+  - component: {fileID: 1182018470268563138}
+  - component: {fileID: 8856887903311328147}
+  - component: {fileID: 4724351317317724020}
+  - component: {fileID: 7996014172775038405}
+  - component: {fileID: 3142741588492769113}
+  - component: {fileID: 4310129740436935250}
+  - component: {fileID: 8209618725292841308}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -174,11 +172,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 56.727127, y: -13.507317}
+  scrollPos: {x: 176.88103, y: -47.564064}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7880002
+  zoom: 0.66800034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -186,12 +184,12 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 7906669685788017209}
-  selectedCommands:
-  - {fileID: 2825331828916557199}
+  - {fileID: 1508978350077607452}
+  selectedCommands: []
   variables:
   - {fileID: 7906669685788017236}
   - {fileID: 3616122343145366833}
+  - {fileID: 8003862285563072290}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -218,7 +216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 126
     y: 69.83924
-    width: 80.45684
+    width: 79.9401
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -227,12 +225,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1508978350077607523}
   commandList:
-  - {fileID: 7906669685788017141}
   - {fileID: 7906669685788017111}
   - {fileID: 4055671226630541003}
-  - {fileID: 7906669685788017142}
   - {fileID: 1508978350077607444}
-  - {fileID: 2744376551849496439}
   - {fileID: 1508978350077607448}
   - {fileID: 4055671226630540965}
   - {fileID: 7906669685788017110}
@@ -271,9 +266,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Esta es mi \xFAltima prueba para optener mi trabajo como detective,
+  storyText: "Esta es mi \xFAltima prueba para obtener  mi trabajo como detective,
     es el momento de mostrarles de lo que soy capaz.{w=0.5} \n{i}Pulsa cualquier
-    parte de la {b}pantalla{/b} para avanzar en los dialogos.{/i}"
+    parte de la {b}pantalla{/b} para avanzar en los di\xE1logos.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -362,7 +357,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 243.75534
     y: 68.27112
-    width: 102.453445
+    width: 102.89418
     height: 40
   tint: {r: 0.2512756, g: 0.68648416, b: 0.7264151, a: 1}
   useCustomTint: 1
@@ -371,13 +366,11 @@ MonoBehaviour:
   description: Dialogos del 1er Puzzle
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 4055671226630541001}
   - {fileID: 7436616497864668763}
   - {fileID: 1508978350077607440}
   - {fileID: 1806633722200225928}
   - {fileID: 1508978350077607447}
   - {fileID: 2567432250856518436}
-  - {fileID: 4055671226630540983}
   - {fileID: 1391354937026080597}
   suppressAllAutoSelections: 0
 --- !u!114 &1508978350077607440
@@ -422,8 +415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "{i}Usa la {b}cruceta{/b} de la derecha para mover las fichas de un
-    lado a otro del tablero, seg\xFAn el color de las flechas.{/i}"
+  storyText: "{i}Usa la {b}cruceta{/b} de la derecha para mover las fichas, seg\xFAn
+    el color de las flechas, de un lado a otro del tablero.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -450,9 +443,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 383.01306
+    x: 381.63943
     y: 64.58279
-    width: 123.604034
+    width: 123.85226
     height: 40
   tint: {r: 0.3679245, g: 0.21057312, b: 0.22333132, a: 1}
   useCustomTint: 1
@@ -465,7 +458,6 @@ MonoBehaviour:
   - {fileID: 7225067207686012134}
   - {fileID: 1508978350077607442}
   - {fileID: 4055671226630540964}
-  - {fileID: 1508978350077607437}
   - {fileID: 8656882328191327143}
   - {fileID: 7504452678110206990}
   - {fileID: 7906669685788017140}
@@ -486,36 +478,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "Hace mucho tiempo que no ve\xEDa uno de estos {w=0.5}. {w=0.5}. {w=0.5}.\n\xBFC\xF3mo
-    los llamaban? {w=0.5} relojes anal\xF3gicos de p\xE9ndulo, si mal no recuerdo."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1508978350077607437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  storyText: "\xBFNo deber\xEDa estar movi\xE9ndose las manecillas?{w=0.5}\nDeber\xEDa
-    echarle un ojo m\xE1s de cerca.\n"
+  storyText: "Hace mucho tiempo que no ve\xEDa una antig\xFCedad de estas {w=0.5}.
+    {w=0.5}. {w=0.5}\r\nPero \xBFlas manecillas no deber\xEDan estar movi\xE9ndose?{w=0.5}\r\nDeber\xEDa
+    echarle un ojo m\xE1s de cerca.\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -544,7 +509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 541.2945
     y: 63.074425
-    width: 92.30117
+    width: 91.916145
     height: 40
   tint: {r: 0.8113208, g: 0.32318965, b: 0.21941373, a: 1}
   useCustomTint: 1
@@ -553,14 +518,16 @@ MonoBehaviour:
   description: Dialogos del 3er Puzzle
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 4055671226630540981}
+  - {fileID: 1182018470268563138}
   - {fileID: 1073102246317126371}
   - {fileID: 1508978350077607433}
+  - {fileID: 4724351317317724020}
+  - {fileID: 7996014172775038405}
+  - {fileID: 8856887903311328147}
+  - {fileID: 3142741588492769113}
   - {fileID: 4055671226630540963}
-  - {fileID: 6865633260827790931}
   - {fileID: 1508978350077607432}
-  - {fileID: 6584325870303949755}
-  - {fileID: 4055671226630540980}
+  - {fileID: 4310129740436935250}
   - {fileID: 1173100513131272013}
   suppressAllAutoSelections: 0
 --- !u!114 &1508978350077607433
@@ -576,7 +543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 19
-  indentLevel: 0
+  indentLevel: 1
   storyText: "Es muy extra\xF1o ver tantos libros f\xEDsicos, de papel, en estos
     d\xEDas.{w=0.5}\nMe atrever\xEDa a decir que el due\xF1o se gast\xF3 una suma
     considerable de dinero en esta peque\xF1a biblioteca.\n"
@@ -605,11 +572,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 20
-  indentLevel: 0
-  storyText: 'No pierdo nada echandole un vistazo, quizas haya dejado alguna nota
-    entre lineas.
-
-    {i}Pulsa {b}el libro{/b} que desees abrir para leer su contenido{/i}'
+  indentLevel: 1
+  storyText: "Ahora que tengo {b}la nota del reloj{/b} c\xF3mo gu\xEDa, deber\xEDa
+    echarles un vistazo, a ver si encuentro alguna nota entre l\xEDneas.\r\n{i}Pulsa
+    {b}el libro{/b} que desees abrir para leer su contenido{/i}\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -637,8 +603,8 @@ MonoBehaviour:
   itemId: 25
   indentLevel: 0
   storyText: "{i}Revisa la habitaci\xF3n desde diferentes \xE1ngulos, pulando {b}los
-    laterales grises{/b} de la pantalla, para buscar las 3 pistas que se esconden
-    en la habiaci\xF3n{/i}"
+    botones grises{/b} en los laterales de la pantalla, para buscar las 3 pistas
+    que hay escondidas en este lugar{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -739,7 +705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 28
-  indentLevel: 0
+  indentLevel: 1
   display: 1
   stage: {fileID: 0}
   character: {fileID: 0}
@@ -846,62 +812,6 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &2744376551849496439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 32
-  indentLevel: 0
-  description: 
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &7906669685788017110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -958,7 +868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: "{i}Usa los {b}bot\xF3nes{/b} para mover las manecillas del reloj{/i}"
+  storyText: "{i}Usa los {b}botones{/b} que aparecer\xE1n en el centro inferior de
+    la pantalla, para mover las manecillas del reloj{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -971,52 +882,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &7906669685788017141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 48
-  indentLevel: 0
-  duration: 0.5
-  fadeOut: 1
-  targetView: {fileID: 0}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 0.019607844}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
-  fadeTweenType: 4
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
---- !u!114 &7906669685788017142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 0}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &7906669685788017182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,7 +946,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 131.06052
     y: 159.09274
-    width: 84.68696
+    width: 84.930115
     height: 40
   tint: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
   useCustomTint: 1
@@ -1272,9 +1137,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 390.18243
+    x: 391.55606
     y: 161.04721
-    width: 92.30117
+    width: 92.91415
     height: 40
   tint: {r: 0.3679245, g: 0.21057312, b: 0.22333132, a: 1}
   useCustomTint: 1
@@ -1288,6 +1153,8 @@ MonoBehaviour:
   - {fileID: 7906669685788017197}
   - {fileID: 2995862172390409842}
   - {fileID: 7906669685788017194}
+  - {fileID: 7777208336502931902}
+  - {fileID: 9090508322313847354}
   - {fileID: 6948026181525217772}
   - {fileID: 7906669685788017195}
   - {fileID: 7906669685788017193}
@@ -1337,7 +1204,7 @@ MonoBehaviour:
   itemId: 66
   indentLevel: 0
   storyText: "{i}Toma el rollo de papel para revisar su interior, podr\xE1s leer
-    su contendio cada vez que pulses su casilla en el invetario -ubicado en el borde
+    su contenido cada vez que pulses su casilla en el inventario -ubicado en el borde
     superior de la pantalla.-{/i}"
   description: 
   character: {fileID: 0}
@@ -1386,9 +1253,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: "\xA1\xA1Ohhh!!{w=0.5} \xBFPor qu\xE9 algu\xEDen esconder\xEDa un pedazo
-    de papel dentro de una antig\xFCedad c\xF3mo est\xE1s? \nQuizas en su interior
-    haya pistas para resolver alg\xFAn otro de los puzzles."
+  storyText: "\xA1\xA1Ohhh!!{w=0.5} \xBFPor qu\xE9 alguien esconder\xEDa un pedazo
+    de papel dentro de una antig\xFCedad c\xF3mo est\xE1? \nQuiz\xE1s en su interior
+    encuentre m\xE1s pistas para resolver otro de los puzzles."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1468,7 +1335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 686.5505
     y: 160.94418
-    width: 136.29439
+    width: 135.8283
     height: 40
   tint: {r: 0.8117647, g: 0.6959629, b: 0.21960782, a: 1}
   useCustomTint: 1
@@ -1630,7 +1497,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 242.94592
     y: 150.75526
-    width: 104.991516
+    width: 105.88819
     height: 40
   tint: {r: 0.46618012, g: 0.7408315, b: 0.764151, a: 1}
   useCustomTint: 1
@@ -1642,9 +1509,8 @@ MonoBehaviour:
   - {fileID: 7906669685788017200}
   - {fileID: 7906669685788017215}
   - {fileID: 7906669685788017214}
-  - {fileID: 7906669685788017228}
-  - {fileID: 7906669685788017211}
   - {fileID: 9131776890487605310}
+  - {fileID: 8209618725292841308}
   - {fileID: 7906669685788017227}
   - {fileID: 2825331828916557199}
   - {fileID: 7906669685788017262}
@@ -1652,34 +1518,6 @@ MonoBehaviour:
   - {fileID: 7906669685788017212}
   - {fileID: 7906669685788017226}
   suppressAllAutoSelections: 0
---- !u!114 &7906669685788017211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 85
-  indentLevel: 0
-  storyText: "\xBFAcaso eso que cay\xF3 del tablero es un chip? No, m\xE1s que un
-    chip, tiene pinta de ser una tarjeta de acceso."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &7906669685788017212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1715,8 +1553,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: "\xA1\xA1Por fin soy capaz de resolver el laberinto!!\nDespu\xE9s de
-    todos estos a\xF1os, sigo sin perder el toque, jejeje."
+  storyText: "\xA1\xA1Por fin soy capaz de resolver el laberinto!! {w=0.5}\nPero
+    esperen \xBFAcaso eso que cay\xF3 del tablero es una tarjeta de acceso?\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1796,7 +1634,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 865.9703
     y: 69.07479
-    width: 89.7631
+    width: 89.920135
     height: 40
   tint: {r: 0.7156799, g: 0.5534591, b: 0.8301887, a: 1}
   useCustomTint: 1
@@ -1878,7 +1716,7 @@ MonoBehaviour:
   itemId: 94
   indentLevel: 0
   storyText: "Luz ultravioleta,{w=0.5} eso si no me lo esperaba.{w=0.5} .{w=0.5}
-    .{w=0.5} \n\xBFNo habr\xE1n escondido algo importeante a simple vista?\n"
+    .{w=0.5} \n\xBFNo habr\xE1n escondido algo importante a simple vista?"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1988,7 +1826,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "{i}Toca la tarjeta para poder recogerla, podr\xE1s acceder a ella pulsando
     la casilla del inventario -ubicado en el borde superior de la pantalla- y luego
-    buscar en que parte del cuarto podr\xEDasdarle uso.{/i}"
+    buscar en qu\xE9 parte del cuarto podr\xEDas darle uso.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2001,36 +1839,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &7906669685788017228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 99
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 0}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: b9f939e93fd51054ab5c80506e121d59, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &7906669685788017236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2062,7 +1870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 537.2303
     y: 149.36131
-    width: 101.60743
+    width: 101.89618
     height: 40
   tint: {r: 0.8113208, g: 0.32318965, b: 0.21941373, a: 1}
   useCustomTint: 1
@@ -2144,7 +1952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: "Parece que he compltado con exito las tres pruebas...{w=0.5} \n{i}En
+  storyText: "Parece que he completado con \xE9xito las tres pruebas...{w=0.5} \n{i}En
     futuras versiones podr\xE1s revisar el interior de la {b}caja fuerte.{/b}{/i}"
   description: 
   character: {fileID: 0}
@@ -2202,8 +2010,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: "Conque esa era el orden correcto para la clave \xA1Eh!.{w=0.5}\nAl
-    final estudiar matem\xE1ticas s\xED me srvi\xF3 para algo en la vida, jajaj\n\n"
+  storyText: "As\xED que ese era el orden correcto para la clave \xA1Eh!.{w=0.5}\nAl
+    final estudiar matem\xE1ticas s\xED me sirvi\xF3 para algo en la vida, jajaj\n\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2484,7 +2292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: "{i}Pulsa {b}el interruptor  {color=red}rojo{/color} que se encuentra
+  storyText: "{i}Pulsa {b}el interruptor {color=red}rojo{/color} que se encuentra
     en la pared{/b}{w=0.5}....\n{w=0.5}\n\xBFQu\xE9 es lo peor que podr\xEDa pasar?{/i}"
   description: 
   character: {fileID: 0}
@@ -2512,7 +2320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 0
-  storyText: "\xBFQu\xE9 har\xE1 este interruptur?\nN\xFAnca hab\xEDa visto uno parecido.\nVamos
+  storyText: "\xBFQu\xE9 har\xE1 este interruptor?\nNunca hab\xEDa visto uno parecido.\nVamos
     a ver si activa algo."
   description: 
   character: {fileID: 0}
@@ -2593,7 +2401,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 662.2855
     y: 63.640068
-    width: 151.52281
+    width: 150.79834
     height: 40
   tint: {r: 0.8117647, g: 0.6959629, b: 0.21960782, a: 1}
   useCustomTint: 1
@@ -2726,7 +2534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 35
-  indentLevel: 0
+  indentLevel: 1
   display: 1
   stage: {fileID: 0}
   character: {fileID: 0}
@@ -2803,48 +2611,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &4055671226630540980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 43
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &4055671226630540981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &4055671226630540982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2866,27 +2632,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &4055671226630540983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 41
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &4055671226630541000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2900,27 +2645,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 39
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &4055671226630541001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 38
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
@@ -2966,7 +2690,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 867.56573
     y: 158.81754
-    width: 89.7631
+    width: 89.920135
     height: 40
   tint: {r: 0.8117647, g: 0.6959629, b: 0.21960782, a: 1}
   useCustomTint: 1
@@ -3814,7 +3538,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 984.9556
     y: 157.90715
-    width: 109.221634
+    width: 109.8802
     height: 40
   tint: {r: 0.7156799, g: 0.5534591, b: 0.8301887, a: 1}
   useCustomTint: 1
@@ -3896,7 +3620,7 @@ MonoBehaviour:
   itemId: 154
   indentLevel: 0
   storyText: 'Ya es suficiente luz ultravioleta, es hora de volver a ver las cosas
-    con los colores de ttoda la vida.
+    con los colores de toda la vida.
 
 '
   description: 
@@ -3926,7 +3650,7 @@ MonoBehaviour:
   itemId: 155
   indentLevel: 0
   storyText: "{i}La luz ultravioleta puede dificultarte la soluci\xF3n de otros puzzles,
-    activa o desactivala seg\xFAn te parezca conveniente.{/i}"
+    act\xEDvala o desact\xEDvala seg\xFAn te parezca m\xE1s conveniente.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4137,48 +3861,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &6584325870303949755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 168
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &6865633260827790931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508978350077607522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 169
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &295383294825505620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4305,3 +3987,788 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8003862285563072290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: BooksGuide
+  value: 0
+--- !u!114 &7777208336502931902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 176
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 8003862285563072290}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &9090508322313847354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 177
+  indentLevel: 0
+  key: BooksGuide
+  variable: {fileID: 8003862285563072290}
+--- !u!114 &1182018470268563138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 178
+  indentLevel: 0
+  anyOrAllConditions: 1
+  conditions:
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 8003862285563072290}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  compareOperator: 0
+  anyVar:
+    variable: {fileID: 0}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &8856887903311328147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 179
+  indentLevel: 0
+--- !u!114 &4724351317317724020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 180
+  indentLevel: 1
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 0}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &7996014172775038405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 181
+  indentLevel: 1
+  storyText: "Quiz\xE1s les d\xE9 una ojeada m\xE1s tarde\u2026\r\n{i}A\xFAn no tienes
+    suficientes {b}pistas{/b} para resolver este acertijo, intentalo m\xE1s tarde.{/i}\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3142741588492769113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 182
+  indentLevel: 0
+  anyOrAllConditions: 1
+  conditions:
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 8003862285563072290}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  compareOperator: 0
+  anyVar:
+    variable: {fileID: 0}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &4310129740436935250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 183
+  indentLevel: 0
+--- !u!114 &8209618725292841308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508978350077607522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 184
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 0}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
