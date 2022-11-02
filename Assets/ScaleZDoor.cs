@@ -6,12 +6,15 @@ using DG.Tweening;
 public class ScaleZDoor : MonoBehaviour
 {
     [SerializeField] private GameObject Door;
-    private int puzzlesRoom2Completed;
+    [SerializeField] private int puzzlesRoom2Completed = 0;
 
     [SerializeField] private float Duration;
 
-    private bool Done = false;
-
+    [SerializeField] private bool Done = false;
+    private void Start()
+    {
+        puzzlesRoom2Completed = 0;
+    }
 
 
     void Update()
