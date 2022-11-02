@@ -4813,6 +4813,7 @@ MonoBehaviour:
   - {fileID: 987413119}
   - {fileID: 7905770}
   - {fileID: 7905770}
+  DoLOCAL: 0
   time: 1.5
   x: 0
   y: 8
@@ -14633,6 +14634,7 @@ MonoBehaviour:
   InitialCameraPosition: {fileID: 670006328}
   ZoomTarget: {fileID: 1268760689}
   ButtonMove: {fileID: 0}
+  ButtonYMove: 0
   ButtonBack: {fileID: 0}
   Target: {fileID: 1268760689}
   VelocityToMoving: 0.5
@@ -15741,6 +15743,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2141344187}
     m_Modifications:
+    - target: {fileID: 6837542670211837953, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837542670211837953, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837542670211837953, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837542670211837953, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837542670211837953, guid: be217a1a3ea919e44be9adb4e5355ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 7739552566129881406, guid: be217a1a3ea919e44be9adb4e5355ce4,
         type: 3}
       propertyPath: m_IsActive
