@@ -1,509 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &-7172721252345702473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/UI SFX/New Event
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/UI SFX/New Event
-  Guid:
-    Data1: 135510571
-    Data2: 1175590277
-    Data3: -725752650
-    Data4: 1556991295
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 806
---- !u!114 &-6712924304889804992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/OST/Adaptive Song 2
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/OST/Adaptive Song 2
-  Guid:
-    Data1: 181058467
-    Data2: 1201166610
-    Data3: 373623734
-    Data4: -1016106689
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 4258250991873036265}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 39544
---- !u!114 &-4192861074459031263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/Puzzle Libreria SFX/Numpad Click
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/Puzzle Libreria SFX/Numpad Click
-  Guid:
-    Data1: 975692919
-    Data2: 1286865783
-    Data3: -1820278348
-    Data4: 845099261
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3583627479738395609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
-  Guid:
-    Data1: 1035745543
-    Data2: 1298841275
-    Data3: -581447288
-    Data4: -633320910
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3535170570854409594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MusicVol
-  m_EditorClassIdentifier: 
-  Name: MusicVol
-  StudioPath: parameter:/MusicVol
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 3916499930
-    data2: 2619746743
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-3070052399148505496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Mobile/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638029143329306739
-  FileSizes: []
-  Exists: 1
---- !u!114 &-2762888990905523652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopY
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopY
-  Guid:
-    Data1: -1004316281
-    Data2: 1127520184
-    Data3: -1689247836
-    Data4: 1505086453
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-2622533327665904208
-=======
---- !u!114 &-5283781313593432857
->>>>>>> main
-=======
---- !u!114 &-5283781313593432857
->>>>>>> main
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/CLOCK/OPEN DOOR
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/CLOCK/OPEN DOOR
-  Guid:
-    Data1: -692337083
-    Data2: 1149287188
-    Data3: 1777864121
-    Data4: -843657532
-  Banks:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - {fileID: -3070052399148505496}
-=======
-  - {fileID: -1882025287060013587}
->>>>>>> main
-=======
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4680886604214503969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Adaptive Song 2/Puzzle counter
-  m_EditorClassIdentifier: 
-  Name: Puzzle counter
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 1739873531
-    data2: 3071055609
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-4678801220681385546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
-  Guid:
-    Data1: 133729441
-    Data2: 1334139571
-    Data3: -994759492
-    Data4: 1229352678
-  Banks:
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4095589802906183689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
-  Guid:
-    Data1: 1035745543
-    Data2: 1298841275
-    Data3: -581447288
-    Data4: -633320910
-  Banks:
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4019942189545435441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/Puzzle Libreria SFX/Numpad Click
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/Puzzle Libreria SFX/Numpad Click
-  Guid:
-    Data1: 975692919
-    Data2: 1286865783
-    Data3: -1820278348
-    Data4: 845099261
-  Banks:
-  - {fileID: -1882025287060013587}
->>>>>>> main
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &-1446143680411373091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/Menu/Menu OST
-  m_EditorClassIdentifier: 
-  Path: event:/event:/Menu/Menu OST
-  Guid:
-    Data1: 1465809274
-    Data2: 1209429674
-    Data3: 549750180
-    Data4: 684806443
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 48000
---- !u!114 &-914378231984263851
-=======
---- !u!114 &-4680886604214503969
->>>>>>> main
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-<<<<<<< HEAD
-  m_Name: parameter:/Adaptive Song/Puzzle counter
-=======
-  m_Name: parameter:/Adaptive Song 2/Puzzle counter
->>>>>>> main
-  m_EditorClassIdentifier: 
-  Name: Puzzle counter
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 1739873531
-    data2: 3071055609
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
-<<<<<<< HEAD
---- !u!114 &11400000
-=======
---- !u!114 &-4678801220681385546
->>>>>>> main
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 2391047315404430492}
-  - {fileID: -3070052399148505496}
-  EditorEvents:
-  - {fileID: -3583627479738395609}
-  - {fileID: -7172721252345702473}
-  - {fileID: -2622533327665904208}
-  - {fileID: 4988600273769048379}
-  - {fileID: -4192861074459031263}
-  - {fileID: -1446143680411373091}
-  - {fileID: -2762888990905523652}
-  - {fileID: 7966664145825155498}
-  - {fileID: -6712924304889804992}
-  - {fileID: 7055537552733963093}
-  - {fileID: 1425746838646397813}
-  EditorParameters:
-  - {fileID: 7525993315903597690}
-  - {fileID: -3535170570854409594}
-  MasterBanks:
-  - {fileID: -3070052399148505496}
-  StringsBanks:
-  - {fileID: 2391047315404430492}
-  cacheTime: 638029143329316746
-  cacheVersion: 131592
---- !u!114 &1425746838646397813
-=======
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
-  Guid:
-    Data1: 133729441
-    Data2: 1334139571
-    Data3: -994759492
-    Data4: 1229352678
-  Banks:
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4095589802906183689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
-  Guid:
-    Data1: 1035745543
-    Data2: 1298841275
-    Data3: -581447288
-    Data4: -633320910
-  Banks:
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4019942189545435441
->>>>>>> main
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/SFX Rise Wall
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/SFX Rise Wall
-  Guid:
-    Data1: -2131047715
-    Data2: 1125369792
-    Data3: 286230413
-    Data4: 738265556
-  Banks:
-<<<<<<< HEAD
-  - {fileID: -3070052399148505496}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
---- !u!114 &2391047315404430492
+--- !u!114 &-9168023522517620190
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -523,7 +20,7 @@ MonoBehaviour:
   - Name: 
     Value: 1642
   Exists: 1
---- !u!114 &4258250991873036265
+--- !u!114 &-8791817833979977820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -533,7 +30,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Adaptive Song 2/Puzzle counter
+  m_Name: parameter:/Adaptive Song/Puzzle counter
   m_EditorClassIdentifier: 
   Name: Puzzle counter
   StudioPath: 
@@ -547,74 +44,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &4988600273769048379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopX
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopX
-  Guid:
-    Data1: 1234324073
-    Data2: 1103679472
-    Data3: -1231839073
-    Data4: 2095168062
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 0
-  Is3D: 0
-=======
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 1
->>>>>>> main
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
-<<<<<<< HEAD
---- !u!114 &7055537552733963093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/OST/Adaptive Song
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/OST/Adaptive Song
-  Guid:
-    Data1: 1868706262
-    Data2: 1145374494
-    Data3: -1596554050
-    Data4: 159808582
-  Banks:
-  - {fileID: -3070052399148505496}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -914378231984263851}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 39544
---- !u!114 &7525993315903597690
-=======
---- !u!114 &-3599210730968512765
->>>>>>> main
-=======
---- !u!114 &-3599210730968512765
->>>>>>> main
+--- !u!114 &-8133066586538555560
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -638,15 +68,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &7966664145825155498
-=======
---- !u!114 &-3587114016493069921
->>>>>>> main
-=======
---- !u!114 &-3587114016493069921
->>>>>>> main
+--- !u!114 &-7286229677254994424
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -656,63 +78,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Name: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
+  m_Name: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopX
   m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
+  Path: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopX
   Guid:
-    Data1: 133729441
-    Data2: 1334139571
-    Data3: -994759492
-    Data4: 1229352678
+    Data1: 1234324073
+    Data2: 1103679472
+    Data3: -1231839073
+    Data4: 2095168062
   Banks:
-  - {fileID: -3070052399148505496}
-=======
-=======
->>>>>>> main
-  m_Name: event:/event:/LVL 1 Events/OST/Adaptive Song
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/OST/Adaptive Song
-  Guid:
-    Data1: 1868706262
-    Data2: 1145374494
-    Data3: -1596554050
-    Data4: 159808582
-  Banks:
-  - {fileID: -1882025287060013587}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -35666946201207518}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 39544
---- !u!114 &-1902038116420999450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopY
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopY
-  Guid:
-    Data1: -1004316281
-    Data2: 1127520184
-    Data3: -1689247836
-    Data4: 1505086453
-  Banks:
-  - {fileID: -1882025287060013587}
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
+  - {fileID: 6417828104281981032}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -720,117 +95,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
---- !u!114 &-1882025287060013587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Mobile/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638029139587524065
-  FileSizes: []
-  Exists: 1
---- !u!114 &-35666946201207518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Adaptive Song/Puzzle counter
-  m_EditorClassIdentifier: 
-  Name: Puzzle counter
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 1739873531
-    data2: 3071055609
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 5445526228941380503}
-  - {fileID: -1882025287060013587}
-  EditorEvents:
-  - {fileID: -4095589802906183689}
-  - {fileID: 1117202326890444604}
-  - {fileID: -5283781313593432857}
-  - {fileID: 1822140195453076452}
-  - {fileID: -4019942189545435441}
-  - {fileID: 5975809166117649019}
-  - {fileID: -1902038116420999450}
-  - {fileID: -4678801220681385546}
-  - {fileID: 7253882913796785930}
-  - {fileID: -3587114016493069921}
-  - {fileID: 8402983865858990174}
-  EditorParameters:
-  - {fileID: -3599210730968512765}
-  - {fileID: 1760565548148202355}
-  MasterBanks:
-  - {fileID: -1882025287060013587}
-  StringsBanks:
-  - {fileID: 5445526228941380503}
-  cacheTime: 638029139587544160
-  cacheVersion: 131592
---- !u!114 &1117202326890444604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/UI SFX/New Event
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/UI SFX/New Event
-  Guid:
-    Data1: 135510571
-    Data2: 1175590277
-    Data3: -725752650
-    Data4: 1556991295
-  Banks:
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 806
---- !u!114 &1760565548148202355
+--- !u!114 &-6549670501095869203
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -854,54 +119,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &1822140195453076452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopX
-  m_EditorClassIdentifier: 
-  Path: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopX
-  Guid:
-    Data1: 1234324073
-    Data2: 1103679472
-    Data3: -1231839073
-    Data4: 2095168062
-  Banks:
-  - {fileID: -1882025287060013587}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &5445526228941380503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Mobile/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638029139587544160
-  FileSizes:
-  - Name: 
-    Value: 1642
-  Exists: 1
---- !u!114 &5975809166117649019
+--- !u!114 &-6044700340215905983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -920,7 +138,7 @@ MonoBehaviour:
     Data3: 549750180
     Data4: 684806443
   Banks:
-  - {fileID: -1882025287060013587}
+  - {fileID: 6417828104281981032}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -928,7 +146,179 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 48000
---- !u!114 &7253882913796785930
+--- !u!114 &-5083300502061651904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 1 Events/SFX/UI SFX/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 1 Events/SFX/UI SFX/New Event
+  Guid:
+    Data1: 135510571
+    Data2: 1175590277
+    Data3: -725752650
+    Data4: 1556991295
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 806
+--- !u!114 &-4866746734338411371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 1 Events/SFX/Puzzle Libreria SFX/Numpad Click
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 1 Events/SFX/Puzzle Libreria SFX/Numpad Click
+  Guid:
+    Data1: 975692919
+    Data2: 1286865783
+    Data3: -1820278348
+    Data4: 845099261
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4160128774381378201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 1 Events/SFX/CLOCK/SFX_MANECILLAS/Clock Click
+  Guid:
+    Data1: 133729441
+    Data2: 1334139571
+    Data3: -994759492
+    Data4: 1229352678
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2976528918335559878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 1 Events/OST/Adaptive Song
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 1 Events/OST/Adaptive Song
+  Guid:
+    Data1: 1868706262
+    Data2: 1145374494
+    Data3: -1596554050
+    Data4: 159808582
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8791817833979977820}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 39544
+--- !u!114 &-543494838581807509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 1 Events/SFX/Puzzle Completed SFX
+  Guid:
+    Data1: 1035745543
+    Data2: 1298841275
+    Data3: -581447288
+    Data4: -633320910
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -9168023522517620190}
+  - {fileID: 6417828104281981032}
+  EditorEvents:
+  - {fileID: -543494838581807509}
+  - {fileID: -5083300502061651904}
+  - {fileID: 4212996340356255895}
+  - {fileID: -7286229677254994424}
+  - {fileID: -4866746734338411371}
+  - {fileID: -6044700340215905983}
+  - {fileID: 2340406884495755358}
+  - {fileID: -4160128774381378201}
+  - {fileID: 865639240957674247}
+  - {fileID: -2976528918335559878}
+  - {fileID: 3091847814325328824}
+  EditorParameters:
+  - {fileID: -8133066586538555560}
+  - {fileID: -6549670501095869203}
+  MasterBanks:
+  - {fileID: 6417828104281981032}
+  StringsBanks:
+  - {fileID: -9168023522517620190}
+  cacheTime: 638029143329316746
+  cacheVersion: 131592
+--- !u!114 &865639240957674247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -947,16 +337,67 @@ MonoBehaviour:
     Data3: 373623734
     Data4: -1016106689
   Banks:
-  - {fileID: -1882025287060013587}
+  - {fileID: 6417828104281981032}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4680886604214503969}
+  - {fileID: 1625986586867753452}
   MinDistance: 1
   MaxDistance: 20
   Length: 39544
---- !u!114 &8402983865858990174
+--- !u!114 &1625986586867753452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Adaptive Song 2/Puzzle counter
+  m_EditorClassIdentifier: 
+  Name: Puzzle counter
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1739873531
+    data2: 3071055609
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2340406884495755358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopY
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 1 Events/SFX/BOX PUZZLE/MazeLoopY
+  Guid:
+    Data1: -1004316281
+    Data2: 1127520184
+    Data3: -1689247836
+    Data4: 1505086453
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3091847814325328824
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -975,7 +416,7 @@ MonoBehaviour:
     Data3: 286230413
     Data4: 738265556
   Banks:
-  - {fileID: -1882025287060013587}
+  - {fileID: 6417828104281981032}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -983,7 +424,48 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
+--- !u!114 &4212996340356255895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 1 Events/SFX/CLOCK/OPEN DOOR
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 1 Events/SFX/CLOCK/OPEN DOOR
+  Guid:
+    Data1: -692337083
+    Data2: 1149287188
+    Data3: 1777864121
+    Data4: -843657532
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6417828104281981032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Mobile/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638029143329306739
+  FileSizes: []
+  Exists: 1
