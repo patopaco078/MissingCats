@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class recogerObjeto : MonoBehaviour
 {
+    public GameObject marco;
 
     [SerializeField] InventarioSO data;
     // Start is called before the first frame update
     void Start()
     {
-        
+        marco.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +29,11 @@ public class recogerObjeto : MonoBehaviour
                     ItemPickeable itemI = hit.transform.GetComponent<ItemPickeable>();
                     data.AddItem(itemI.itemInventorio);
                     itemI.DestroyItem();
+                }
+
+                if (hit.transform.name.Equals("Cube (2)"))
+                {
+                    marco.SetActive(true);
                 }
 
             }
