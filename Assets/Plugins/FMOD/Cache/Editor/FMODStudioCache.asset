@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638029139587544160
+  lastModified: 638029561967274538
   FileSizes:
   - Name: 
-    Value: 1642
+    Value: 1698
   Exists: 1
 --- !u!114 &-8791817833979977820
 MonoBehaviour:
@@ -68,6 +68,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7559158571635420403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 2 Events/SONG
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 2 Events/SONG
+  Guid:
+    Data1: -319047212
+    Data2: 1296931472
+    Data3: 256929699
+    Data4: 1676369293
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21818
 --- !u!114 &-7286229677254994424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,6 +336,7 @@ MonoBehaviour:
   - {fileID: 865639240957674247}
   - {fileID: -2976528918335559878}
   - {fileID: 3091847814325328824}
+  - {fileID: -7559158571635420403}
   EditorParameters:
   - {fileID: -8133066586538555560}
   - {fileID: -6549670501095869203}
@@ -316,7 +344,7 @@ MonoBehaviour:
   - {fileID: 6417828104281981032}
   StringsBanks:
   - {fileID: -9168023522517620190}
-  cacheTime: 638029139587544160
+  cacheTime: 638029561967274538
   cacheVersion: 131592
 --- !u!114 &865639240957674247
 MonoBehaviour:
@@ -466,6 +494,6 @@ MonoBehaviour:
   Path: FMOD/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638029139587524065
+  lastModified: 638029561967244512
   FileSizes: []
   Exists: 1
