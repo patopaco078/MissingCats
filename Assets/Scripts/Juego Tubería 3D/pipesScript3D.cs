@@ -28,7 +28,7 @@ void Awake()
 
         int rand = Random.Range(0, rotations.Length);
 
-        transformar.eulerAngles = new Vector3(0, 0, rotations[rand]);
+        transformar.eulerAngles = new Vector3(0, 90 , rotations[rand]);
         if (correctRotation.Length != 0)
         {
             if (PossibleRotation > 1)
