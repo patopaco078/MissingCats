@@ -7,21 +7,21 @@ public class pipesScript3D : MonoBehaviour
 {
     RectTransform recta;
 
-       
-    
- GameManager3D gameManager1;
- Transform transformar;
-    public float[] correctRotation;
-    int PossibleRotation=1;
-   [SerializeField] bool isPlaced=false;
-    // Start is called before the first frame update
-  float[] rotations = {0,90,180,270};
 
-void Awake()
-{
-  transformar=GetComponent<Transform>();
- gameManager1=GameObject.Find("GameManagercables").GetComponent<GameManager3D>();
-}
+
+    GameManager3D gameManager1;
+    Transform transformar;
+    public float[] correctRotation;
+    int PossibleRotation = 1;
+    [SerializeField] bool isPlaced = false;
+    // Start is called before the first frame update
+    float[] rotations = { 0, 90, 180, 270 };
+
+    void Awake()
+    {
+        transformar = GetComponent<Transform>();
+        gameManager1 = GameObject.Find("GameManagercables").GetComponent<GameManager3D>();
+    }
     void Start()
     {
         PossibleRotation = correctRotation.Length;

@@ -51,4 +51,9 @@ public class Level2FinalEvent : MonoBehaviour
             RedLights[i].SetActive(true);
         }
     }
+
+    public void EndTramp()
+    {
+        FinalEvent = false;
+    }
 }
