@@ -1,10 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+using UnityEngine.Events;
+
 using System;
 
 public class RotateNumbers : MonoBehaviour
 {
+    [SerializeField] private UnityEvent doThis;
+
+
     public static event Action<string, int> Rotated = delegate { };
     private bool coroutineAllowed;
     private int numero;
@@ -28,6 +34,8 @@ public class RotateNumbers : MonoBehaviour
 
     private IEnumerator rotatewheel()
     {
+        doThis.Invoke();
+
         coroutineAllowed = false;
 
         for (int i = 0; i <= 11; i++)

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638029832492621945
+  lastModified: 638035329930463326
   FileSizes:
   - Name: 
-    Value: 1698
+    Value: 1794
   Exists: 1
 --- !u!114 &-8791817833979977820
 MonoBehaviour:
@@ -227,6 +227,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4720279160498587512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 2 Events/RotateSolid
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 2 Events/RotateSolid
+  Guid:
+    Data1: 62897827
+    Data2: 1286747390
+    Data3: 273667224
+    Data4: -1035331771
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4160128774381378201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,6 +364,8 @@ MonoBehaviour:
   - {fileID: -2976528918335559878}
   - {fileID: 3091847814325328824}
   - {fileID: -7559158571635420403}
+  - {fileID: 10212241948543045}
+  - {fileID: -4720279160498587512}
   EditorParameters:
   - {fileID: -8133066586538555560}
   - {fileID: -6549670501095869203}
@@ -344,8 +373,35 @@ MonoBehaviour:
   - {fileID: 6417828104281981032}
   StringsBanks:
   - {fileID: -9168023522517620190}
-  cacheTime: 638029832492621945
+  cacheTime: 638035329930463326
   cacheVersion: 131592
+--- !u!114 &10212241948543045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 2 Events/Rotate
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 2 Events/Rotate
+  Guid:
+    Data1: 77269154
+    Data2: 1158145435
+    Data3: 542673538
+    Data4: -1629006078
+  Banks:
+  - {fileID: 6417828104281981032}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &865639240957674247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,6 +550,6 @@ MonoBehaviour:
   Path: FMOD/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638029832492621945
+  lastModified: 638035329930433297
   FileSizes: []
   Exists: 1

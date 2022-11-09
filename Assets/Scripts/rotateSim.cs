@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+using UnityEngine.Events;
+
 using System;
 public class rotateSim : MonoBehaviour
 {
+    [SerializeField] private UnityEvent doThis;
+
+
     public static event Action<string, int> Rotated = delegate { };
     private bool coroutineAllowed;
     private int numero;
@@ -28,6 +34,8 @@ public class rotateSim : MonoBehaviour
     private IEnumerator rotatewheel()
     {
         coroutineAllowed = false;
+        doThis.Invoke();
+
 
         for (int i = 1; i <= 9; i++)
         {

@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 using System;
 
 public class Rotate : MonoBehaviour
 {
+    [SerializeField] private UnityEvent doThis;
+
     public static event Action <string, int> Rotated = delegate { };
     private bool coroutineAllowed;
     private int numero;
@@ -19,7 +23,8 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     private void OnMouseDown()
     {
-        if(coroutineAllowed==true)
+        
+        if (coroutineAllowed==true)
         {
             StartCoroutine("rotatewheel");
         }
@@ -28,6 +33,7 @@ public class Rotate : MonoBehaviour
 
     private IEnumerator rotatewheel()
     {
+        doThis.Invoke();
         coroutineAllowed = false;
 
         for(int i=1;i<=9;i++)
