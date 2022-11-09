@@ -34,7 +34,7 @@ public class PuzzleCounter : MonoBehaviour
                 doThis.Invoke();
 
                 firstTime = false;
-                StartCoroutine(LVLDone(5));
+                //StartCoroutine(LVLDone(5));
             }
             //if (timePassed > 5f)
             //{
