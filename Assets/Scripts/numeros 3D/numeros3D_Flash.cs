@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.Events;
 using TMPro;
 
 
 public class numeros3D_Flash : MonoBehaviour
 {
 
+    [SerializeField] private UnityEvent doThis;
 
 
     public float timerLimit = 1.0f;
@@ -158,8 +160,8 @@ public class numeros3D_Flash : MonoBehaviour
                     Renderer rend = hijo.GetComponent<Renderer>();
 
                     rend.material.color = Color.blue;
-                   
-               
+                    doThis.Invoke();
+
                 }
 
             }
@@ -173,20 +175,10 @@ public class numeros3D_Flash : MonoBehaviour
 
     public IEnumerator DelayInstantiate2(Transform actual)
     {
-        Debug.Log("hola");
         Renderer rend = actual.GetComponent<Renderer>();
         rend.material.color = material.color;
         yield return new WaitForSeconds(3);
-    }
-        private void Update()
-    {
-        
-   
-
-
-    }
-
-    
+    }    
 
 }
 

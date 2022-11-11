@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9098538458325060414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 2 Events/BotonesPared
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 2 Events/BotonesPared
+  Guid:
+    Data1: -867559373
+    Data2: 1167761579
+    Data3: -53124213
+    Data4: -1946759178
+  Banks:
+  - {fileID: 4895081924043450132}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7996054552332548039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,10 +120,10 @@ MonoBehaviour:
   Path: FMOD/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638035329930463326
+  lastModified: 638037202244530220
   FileSizes:
   - Name: 
-    Value: 1794
+    Value: 1874
   Exists: 1
 --- !u!114 &-2211648694196270984
 MonoBehaviour:
@@ -155,6 +182,8 @@ MonoBehaviour:
   - {fileID: 5754066764108768472}
   - {fileID: 5545226285051711112}
   - {fileID: -2211648694196270984}
+  - {fileID: 4657223680687534359}
+  - {fileID: -9098538458325060414}
   EditorParameters:
   - {fileID: 4786073383889855436}
   - {fileID: -6052604724562670332}
@@ -162,7 +191,7 @@ MonoBehaviour:
   - {fileID: 4895081924043450132}
   StringsBanks:
   - {fileID: -2690532682212704106}
-  cacheTime: 638035329930463326
+  cacheTime: 638037202244530220
   cacheVersion: 131592
 --- !u!114 &263762230757310985
 MonoBehaviour:
@@ -296,6 +325,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4657223680687534359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event:/LVL 2 Events/Alarm
+  m_EditorClassIdentifier: 
+  Path: event:/event:/LVL 2 Events/Alarm
+  Guid:
+    Data1: 726034016
+    Data2: 1141994237
+    Data3: -1763369315
+    Data4: 551641669
+  Banks:
+  - {fileID: 4895081924043450132}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &4753547996520846854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,7 +418,7 @@ MonoBehaviour:
   Path: FMOD/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638035329930433297
+  lastModified: 638037202244500187
   FileSizes: []
   Exists: 1
 --- !u!114 &5545226285051711112
