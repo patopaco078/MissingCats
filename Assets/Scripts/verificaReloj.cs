@@ -13,7 +13,7 @@ public class verificaReloj : MonoBehaviour
     private void Start()
     {
         resuelto = new int[] { 1, 6 };
-        actual = new int[] { 1, 1,};
+        actual = new int[] { 12, 12,};
         transformHora.CambioHora += verificahora;
 
     }
