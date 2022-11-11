@@ -4658,6 +4658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oxygen_Cylinder_Lp
       objectReference: {fileID: 0}
+    - target: {fileID: 541181932588006575, guid: 97f5736ab22b39e4db121b1559951b6f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 921402517260346901, guid: 97f5736ab22b39e4db121b1559951b6f,
         type: 3}
       propertyPath: m_RootOrder
@@ -5709,7 +5714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &414655645
 Transform:
   m_ObjectHideFlags: 0
@@ -6995,7 +7000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &584954024
 Transform:
   m_ObjectHideFlags: 0
@@ -16871,6 +16876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FBX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8675614447809946165, guid: 74f7cc38f3a54124fbce33bd251f29fa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74f7cc38f3a54124fbce33bd251f29fa, type: 3}
