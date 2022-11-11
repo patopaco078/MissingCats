@@ -20,7 +20,7 @@ public class uvControllerGame : MonoBehaviour
     {
         if(lightUV == null || normalLight == null)
         {
-            Debug.Log("¡REVISA LAS LUCES, TANTO LA UV COMO LA NORMAL DE ESTE SCRIPT!");
+            //Debug.Log("¡REVISA LAS LUCES, TANTO LA UV COMO LA NORMAL DE ESTE SCRIPT!");
         }
         if (ActiveUV && (lightUV != null && normalLight != null))
         {
