@@ -1579,7 +1579,7 @@ MonoBehaviour:
   Camera: {fileID: 963194228}
   InitialCameraPosition: {fileID: 604667419}
   ZoomTarget: {fileID: 1775290847}
-  ButtonMove: {fileID: 0}
+  ButtonMove: {fileID: 910667663}
   ButtonYMove: 500
   ButtonBack: {fileID: 7967887991091928884}
   Target: {fileID: 1775290847}
@@ -2810,7 +2810,7 @@ MonoBehaviour:
   Camera: {fileID: 963194228}
   InitialCameraPosition: {fileID: 604667419}
   ZoomTarget: {fileID: 228635366}
-  ButtonMove: {fileID: 0}
+  ButtonMove: {fileID: 910667663}
   ButtonYMove: 500
   ButtonBack: {fileID: 7967887991091928884}
   Target: {fileID: 228635366}
@@ -5072,6 +5072,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3050453511538086185, guid: cdb5d05f2cef87647be88a1670bb601f,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050453511538086185, guid: cdb5d05f2cef87647be88a1670bb601f,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 340
       objectReference: {fileID: 0}
@@ -5319,6 +5324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050453513224759526, guid: cdb5d05f2cef87647be88a1670bb601f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3050453513224759526, guid: cdb5d05f2cef87647be88a1670bb601f,
         type: 3}
@@ -6487,6 +6497,18 @@ PrefabInstance:
       propertyPath: nodeRect.width
       value: 155.53809
       objectReference: {fileID: 0}
+    - target: {fileID: 1884353554, guid: 9b860813c8c0062448916bbc46098b76, type: 3}
+      propertyPath: display
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884353554, guid: 9b860813c8c0062448916bbc46098b76, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884353554, guid: 9b860813c8c0062448916bbc46098b76, type: 3}
+      propertyPath: toPosition
+      value: 
+      objectReference: {fileID: 659825108}
     - target: {fileID: 1934157419, guid: 9b860813c8c0062448916bbc46098b76, type: 3}
       propertyPath: toPosition
       value: 
@@ -10476,7 +10498,7 @@ PrefabInstance:
     - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
       propertyPath: ButtonMove
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 910667663}
     - target: {fileID: 74502784, guid: ff0f7cd6832addc4684983596add0844, type: 3}
       propertyPath: ButtonYMove
       value: 500
@@ -17275,7 +17297,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ButtonMove
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 910667663}
     - target: {fileID: 7739552566694499403, guid: be217a1a3ea919e44be9adb4e5355ce4,
         type: 3}
       propertyPath: ButtonYMove
